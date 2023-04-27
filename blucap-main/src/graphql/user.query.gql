@@ -1,0 +1,162 @@
+query GetUserProfile($userId: String!) {
+  user: findUser(by: _id, value: $userId) {
+    _id
+    phoneNumber
+    picture
+    email
+    fullName
+    profile {
+      _id
+      educations {
+        degree
+        from {
+          month
+          year
+        }
+        institution
+        to {
+          month
+          year
+        }
+      }
+      height {
+        unit
+        value
+      }
+      weight {
+        unit
+        value
+      }
+      languages {
+        _id
+        isIndian
+        label
+        scid
+        value
+      }
+    }
+    rxProfile {
+      _id
+      isVerified
+      license {
+        number
+        validFrom
+        validTill
+      }
+      skill {
+        canPerformProcedures {
+            _id
+            procedureType {
+              _id
+              name
+            }
+            sctId
+            name
+            isPreferredTerm
+          }
+      }
+      workExperience {
+        affiliated {
+          _id
+          hospital {
+            name
+            _id
+          }
+          verificationStatus
+          role {
+            department
+            employmentType {
+              type
+            }
+            from {
+              month
+              year
+            }
+            to {
+              month
+              year
+            }
+            title
+          }
+        }
+        unaffiliated {
+          _id
+          hospital
+          role {
+            department
+            employmentType
+            from {
+              month
+              year
+            }
+            title
+            to {
+              month
+              year
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+query GetAllLanguages {
+  languages: getAllLanguages {
+    _id
+    isIndian
+    label
+    value
+  }
+}
+
+query getSchedule($schedule:GetScheduleGqlInput!) {
+  getSchedule(schedule: $schedule) {
+    duties {
+      _id
+      shift {
+        _id
+        ward {
+          _id
+          name
+        }
+        shiftTemplate {
+          _id
+          duration {
+            hour
+            minute
+          }
+        }
+        startDate
+        cancelledDuties {
+          _id
+        }
+        rosterType {
+          _id
+          typeName
+        }
+      }
+    }
+    unavailabilities {
+      _id
+      userId
+      hospitalId
+      from
+      to
+    }
+  }
+}
+
+query GetAllProcedures {
+  getAllProcedures {
+    _id
+    isPreferredTerm
+    name
+    procedureType {
+      _id
+      name
+    }
+    sctId
+    isPreferredTerm
+  }
+}

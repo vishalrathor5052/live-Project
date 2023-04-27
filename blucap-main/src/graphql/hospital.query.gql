@@ -1,0 +1,374 @@
+query GetHospitalById($id: String!) {
+  hospital: getHospitalById(hospitalId: $id) {
+    _id
+    address
+    name
+  }
+}
+
+query GetWardsForHospital($id: String!) {
+  hospital: getHospitalById(hospitalId: $id) {
+    wards {
+      _id
+      abbr
+      name
+      wardType {
+        _id
+        color
+        name
+      }
+      beds {
+        number
+        type
+      }
+      department {
+        _id
+        abbr
+        name
+      }
+    }
+  }
+}
+
+query GetDepartmentForHospital($id: String!) {
+  departments: getHospitalById(hospitalId: $id) {
+    departments {
+      _id
+      abbr
+      name
+    }
+  }
+}
+
+query GetWardTypes {
+  wardType: getWardTypes {
+    _id
+    color
+    name
+  }
+}
+
+query GetEmployeesForHospital($hospitalId: String!) {
+  employees: getEmployeesByHospitalId(hospitalId: $hospitalId) {
+    _id
+    roles {
+      _id
+      employmentType {
+        # type
+        _id
+      }
+      from {
+        month
+        year
+      }
+      hospitalRole {
+        hospitalRoleType {
+          _id
+          abbr
+          title
+        }
+        department {
+          name
+          _id
+        }
+      }
+    }
+    user {
+      _id
+      fullName
+      email
+      phoneNumber
+      picture
+      profile {
+        educations {
+          degree
+        }
+      }
+    }
+  }
+
+  departments: getHospitalById(hospitalId: $hospitalId) {
+    departments {
+      name
+      abbr
+      _id
+    }
+  }
+}
+
+query GetHospitalRoleTypes($hospitalId: String!) {
+  roleTypes: getHospitalRoleTypes(hospitalId: $hospitalId) {
+    _id
+    abbr
+    category
+    title
+    permissions {
+      _id
+      category
+      description
+      name
+    }
+  }
+}
+
+query GetAllPermissions {
+  permissions: getAllPermissions {
+    _id
+    category
+    description
+    name
+  }
+}
+
+query GetHospitalRole($hospitalId: String!) {
+  hospitalRoles: getHospitalRolesByHospitalId(hospitalId: $hospitalId) {
+    _id
+    hospitalRoleType {
+      _id
+      title
+    }
+  }
+}
+
+query GetRosterTemplateRequirementData {
+  roles: getRoles {
+    _id
+    title
+  }
+  # Add skills and roster types
+}
+
+#query SearchSkills($searchTerm: String!) {
+#  search: searchSct(term: $searchTerm) {
+#    procedures {
+#      _id
+#      name
+#      sctId
+#    }
+#  }
+#}
+
+query GetRoster(
+  $startDate: DateTime!
+  $endDate: DateTime!
+  $wardIds: [String!]!
+  $rosterTypeIds: [String!]
+) {
+  roster: getRoster(
+    roster: {
+      startDate: $startDate
+      endDate: $endDate
+      wardIds: $wardIds
+      rosterTypeIds: $rosterTypeIds
+    }
+  ) {
+    _id
+    startDate
+    duties {
+      _id
+      allocation {
+        _id
+        email
+        address
+        picture
+        fullName
+      }
+      cancelledBy
+      isPublished
+    }
+    cancelledDuties {
+      _id
+      allocation {
+        _id
+        email
+        address
+        picture
+        fullName
+        profile {
+          educations {
+            degree
+          }
+        }
+        rxProfile {
+          _id
+          skill {
+            canPerformProcedures {
+              _id
+              procedureType {
+                _id
+                name
+              }
+              sctId
+              name
+              isPreferredTerm
+            }
+          }
+        }
+      }
+    }
+    shiftTemplate {
+      _id
+      name
+      startTime {
+        hour
+        minute
+      }
+      duration {
+        hour
+        minute
+      }
+      requirements {
+        minimumStrength
+        requiredProcedures {
+          procedure {
+            _id
+            name
+          }
+        }
+        requiredRoles {
+          hospitalRoleType {
+            _id
+            hospitalRoleType {
+              title
+            }
+          }
+          minimumAssignments
+        }
+      }
+    }
+draftDutyChanges {
+    newAllocations {
+      _id
+      email
+      address
+      picture
+      fullName
+    }
+    reusedDuties {
+    _id
+    allocation {
+        _id
+        email
+        address
+        picture
+        fullName
+      }
+    cancelledBy
+    isPublished
+    }
+  }
+  }
+}
+
+query GetRosterTypes {
+  rosterTypes: getRosterTypes {
+    _id
+    typeName
+  }
+}
+
+query GetEmployeesListByHispitalId($hospitalId: String!) {
+  employees: getEmployeesByHospitalId(hospitalId: $hospitalId) {
+    _id
+    roles {
+      _id
+      # employmentType {
+      # type
+      # _id
+      # }
+      from {
+        month
+        year
+      }
+      hospitalRole {
+        hospitalRoleType {
+          _id
+          abbr
+          title
+        }
+        department {
+          name
+          _id
+        }
+      }
+    }
+    user {
+      _id
+      email
+      fullName
+      address
+      picture
+      rxProfile {
+        _id
+        skill {
+          canPerformProcedures {
+            _id
+            procedureType {
+              _id
+              name
+            }
+            sctId
+            name
+            isPreferredTerm
+          }
+        }
+      }
+    }
+  }
+}
+
+query getEmployeesForShift($shiftDetails: ShiftDetailsInput!) {
+  employees: getEmployeesForShift(shiftDetails: $shiftDetails) {
+    _id
+    roles {
+      _id
+      employmentType {
+        # type
+        _id
+      }
+      from {
+        month
+        year
+      }
+      hospitalRole {
+        hospitalRoleType {
+          _id
+          abbr
+          title
+        }
+        department {
+          name
+          _id
+        }
+      }
+    }
+    user {
+      _id
+      email
+      fullName
+      address
+      picture
+      rxProfile {
+        _id
+        skill {
+          canPerformProcedures {
+            _id
+            procedureType {
+              _id
+              name
+            }
+            sctId
+            name
+            isPreferredTerm
+          }
+        }
+      }
+      profile {
+        educations {
+          degree
+        }
+      }
+    }
+  }
+}
+

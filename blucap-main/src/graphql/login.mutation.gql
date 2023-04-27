@@ -1,0 +1,10 @@
+mutation LoginAgainstQrToken($token: String!) {
+  loginAgainstQrToken(token: $token) {
+    _id
+    dateOfBirth
+    email
+    fullName
+    phoneNumber
+    picture
+  }
+}

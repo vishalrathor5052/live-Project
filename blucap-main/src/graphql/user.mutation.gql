@@ -1,0 +1,9 @@
+mutation UpdateLanguage($userId: String!, $languages: [String!]!) {
+  updateProfile(userId: $userId, profile: { languageIds: $languages }) {
+    _id
+    languages {
+      _id
+      value
+    }
+  }
+}

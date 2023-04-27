@@ -1,0 +1,233 @@
+mutation CreateWards($id: String!, $wards: [WardInput!]!) {
+  createWard(hospitalId: $id, wards: $wards) {
+    __typename
+  }
+}
+
+mutation CreateRoleTypeForHospital($role: NewHospitalRoleTypeInput!) {
+  createHospitalRoleType(newRole: $role) {
+    _id
+    abbr
+    title
+  }
+}
+
+mutation GrantPermission(
+  $hospitalRoleTypeId: String!
+  $permissionIds: [String!]!
+) {
+  setPermissionsToHospitalRoleType(
+    hospitalRoleTypeId: $hospitalRoleTypeId
+    permissionIds: $permissionIds
+  ) {
+    _id
+    permissions {
+      _id
+    }
+    title
+  }
+}
+
+mutation CreateDepartment(
+  $hospitalId: String!
+  $departments: [NewDepartmentInput!]!
+) {
+  createDepartment(hospitalId: $hospitalId, newDepartments: $departments) {
+    _id
+  }
+}
+
+mutation SendEmployeeRequest($employee: [EmployeeRequestGqlInput!]!) {
+  createEmployeeRequests(employeeRequests: $employee) {
+    _id
+  }
+}
+
+mutation createHospitalRoles(
+  $hospitalId: String!
+  $hospitalRoles: [NewHospitalRoleInput!]!
+) {
+  createHospitalRoles(
+    hospitalId: $hospitalId
+    newHospitalRoles: $hospitalRoles
+  ) {
+    _id
+  }
+}
+
+mutation createRoster(
+  $wardIds: [String!]!
+  $rosterTemplate: RosterRequirementGqlInput!
+) {
+  createShiftsWithTemplate(wardIds: $wardIds, rosterTemplate: $rosterTemplate) {
+    success {
+      ward {
+        _id
+        department {
+          _id
+        }
+      }
+      shifts {
+        _id
+        shiftTemplate {
+          _id
+          rosterType {
+            _id
+            typeName
+          }
+          ward {
+            _id
+            department {
+              _id
+            }
+          }
+          startTime {
+            hour
+            minute
+          }
+          duration {
+            hour
+            minute
+          }
+          requirements {
+            minimumStrength
+          }
+          name
+        }
+        draftDutyChanges {
+          newAllocations {
+            _id
+            email
+            address
+            picture
+          }
+          reusedDuties {
+            _id
+            allocation {
+              _id
+              email
+              address
+              picture
+            }
+            cancelledBy
+            isPublished
+          }
+        }
+      }
+    }
+    failed {
+      wardId
+      reason
+    }
+  }
+}
+
+mutation AllocationDutiesShift(
+  $allocationDuties: [AllocateDutiesToShiftGqlInput!]!
+) {
+  allocateDutiesToShifts(allocations: $allocationDuties) {
+    _id
+  }
+}
+
+mutation getPublishRoster($shiftIds: [String!]!) {
+  publishRoster(shiftIds: $shiftIds) {
+    _id
+    shiftTemplate {
+      _id
+      rosterType {
+        _id
+        typeName
+      }
+      ward {
+        _id
+        department {
+          _id
+        }
+      }
+      startTime {
+        hour
+        minute
+      }
+      duration {
+        hour
+        minute
+      }
+      requirements {
+        minimumStrength
+      }
+      name
+    }
+    ward {
+      _id
+    }
+    startDate
+    rosterType {
+      _id
+      typeName
+    }
+    duties {
+      _id
+      allocation {
+        _id
+        email
+        address
+        picture
+      }
+      cancelledBy
+      isPublished
+    }
+    draftDutyChanges {
+      newAllocations {
+        _id
+        email
+        address
+        picture
+      }
+      reusedDuties {
+        _id
+        allocation {
+          _id
+          email
+          address
+          picture
+        }
+        cancelledBy
+        isPublished
+      }
+    }
+    cancelledDuties {
+      _id
+      cancelledBy
+    }
+  }
+}
+
+mutation getEditRequirementsForShifts(
+  $editRequirementsForShiftsInput: [EditRequirementsForShiftsGqlInput!]!
+) {
+  editRequirementsForShifts(
+    editRequirementsForShiftsInput: $editRequirementsForShiftsInput
+  ) {
+    _id
+    draftDutyChanges {
+      newAllocations {
+        _id
+        email
+        address
+        picture
+      }
+      reusedDuties {
+        _id
+        allocation {
+          _id
+          email
+          address
+          picture
+        }
+        cancelledBy
+        isPublished
+      }
+    }
+  }
+}

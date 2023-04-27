@@ -1,0 +1,18 @@
+overwrite: true
+schema: 'https://gateway-staging-managed-dot-blucap-343207.el.r.appspot.com/graphql'
+documents: 'src/graphql/*.gql'
+generates:
+  src/generated/graphql.tsx:
+    config:
+      scalars:
+        DateTime: string
+
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-rtk-query:
+          importBaseApiFrom: 'src/store/query/baseApi'
+          exportHooks: true
+  ./graphql.schema.json:
+    plugins:
+      - 'introspection'

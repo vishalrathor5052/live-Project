@@ -1,0 +1,20 @@
+mutation Login {
+  login {
+    _id
+  }
+}
+
+query GenerateQrCode {
+  getQrCodeForLogin
+}
+
+query GetCurrentUser {
+  user: currentUser {
+    _id
+    phoneNumber
+    picture
+    email
+    dateOfBirth
+    fullName
+  }
+}
