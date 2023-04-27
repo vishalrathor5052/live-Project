@@ -1,0 +1,57 @@
+.profile-setting-main {
+  width: 100%;
+  height: 205px;
+  background-image: url("../../assets/Images/profile/profile-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 20px;
+}
+.profile-setting-from-container {
+  background-color: var(--White);
+  box-shadow: 0px 0px 15px #00000066;
+  border-radius: 10px;
+  padding: 35px 101px;
+  position: absolute;
+  width: 90%;
+  box-sizing: border-box;
+  top: 65%;
+  left: 5%;
+}
+.profile-setting-image {
+  width: 118px;
+  height: 119px;
+  background-color: var(--Black);
+  border-radius: 50%;
+}
+.profile-setting-top-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.input-box-profile-setting {
+  margin-top: 15px;
+}
+.ProfileText {
+  color: var(--White);
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+}
+.Browser {
+  position: relative;
+  bottom: 45px;
+  left: 45px;
+}
+.editSaveButton {
+  margin-right: 28px;
+}
+.mobileNo::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,75 @@
+.order-screen-container {
+  width: 100%;
+  height: 100%;
+}
+.order-screen-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.order-search-input {
+  width: 18%;
+  /* padding: 0 5px; */
+}
+.order-search-input > div {
+  padding: 0 5px;
+}
+.order-status-div {
+  width: 19%;
+  padding: 0 5px;
+}
+.payment-status {
+  width: 19%;
+  padding: 0 5px;
+}
+.search-button {
+  width: 12%;
+  padding: 0 5px;
+}
+.start-div {
+  width: 16%;
+}
+.start-div > div {
+  padding: 0 5px;
+}
+.end-div {
+  width: 16%;
+}
+.end-div > div {
+  padding: 0 5px;
+}
+.order-screen-table-container {
+  margin-top: 35px;
+  height: 100%;
+  width: 100%;
+  /* background-color: aqua; */
+}
+.cross-div {
+  width: 5%;
+  position: relative;
+  top: 4px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.search-order-label {
+  font-size: 16px;
+  color: var(--Black);
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+}
+.start-label {
+  font-size: 16px;
+  color: var(--Black);
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+}
+.end-lable {
+  font-size: 16px;
+  color: var(--Black);
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+}
+.MuiOutlinedInput-notchedOutline {
+  border: none !important;
+  border-style: none !important;
+}

@@ -1,0 +1,110 @@
+.signin-main {
+  background-image: url("../../assets/Images/login/location-screen.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 6px #00000029;
+}
+.logo-div {
+  text-align: center;
+}
+.signin-container {
+  box-sizing: border-box;
+  width: 600px;
+  background-color: var(--White);
+  padding: 35px 99px 58px 99px;
+  margin-top: 33px;
+  position: relative;
+}
+.forgot-pwd {
+  font-size: 14px;
+  color: var(--Black);
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  position: absolute;
+  margin-top: 10px;
+  display: inline-block;
+  margin-left: 65px;
+}
+/* .truecake-logo {
+  width: 212px;
+  height: 64px;
+} */
+.button-div-singin {
+  margin-top: 37px;
+  cursor: pointer;
+}
+
+.input-verify-container {
+  padding-top: 26px;
+  display: flex;
+  justify-content: space-around;
+  width: 66%;
+  margin: auto;
+}
+.verify-optinput {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #f8d40c;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Ubuntu", "Regular";
+  font-weight: 400;
+}
+.verify-optinput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.error-div {
+  display: flex;
+  justify-content: center;
+}
+
+.error-text {
+  color: red;
+}
+.receive-code {
+  font-size: 15px;
+  font-family: "Ubuntu", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+  text-align: center;
+}
+.request-again {
+  color: var(--Yellow);
+  font-family: "Ubuntu", "Bold";
+  font-weight: bold;
+}
+.truecake-hiddenpassword {
+  width: 20px;
+  /* margin: 14px; */
+  position: absolute;
+  top: 12px;
+  right: 32px;
+}
+.newPassword-hiddenpassword {
+  width: 20px;
+  /* margin: 14px; */
+  position: absolute;
+  top: 107px;
+  right: 129px;
+}
+.cofirm-hiddenpassword {
+  width: 20px;
+  /* margin: 14px; */
+  position: absolute;
+  top: 12px;
+  right: 29px;
+}
+.loginInput {
+  position: relative;
+}
+.loginInput input {
+  border-radius: 10px;
+}

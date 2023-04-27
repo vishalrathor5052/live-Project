@@ -1,0 +1,14 @@
+.change-password-container {
+  width: 70%;
+}
+.change-pwd-input {
+  margin-top: 35px;
+}
+.change-pwd-bottom-div {
+  width: 37%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+  position: relative;
+  left: 20px;
+}

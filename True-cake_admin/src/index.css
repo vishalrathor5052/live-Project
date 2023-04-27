@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+:root {
+  --Yellow: #f8d40c;
+  --White: #ffffff;
+  --LightBlack: #1c1b1d;
+  --Darkgrey: #313131;
+  --Lightgrey: #3e3f41;
+  --Black: #111011;
+  --Green: #1ab963;
+  --OffGreen: #2ebd59;
+  --gray: #7a7a7a;
+  --Gold: #fdf2b7;
+  --Aqua: #b0fcef;
+  --Darkyellow: #fee490;
+  --Red: #ff7575;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.app-main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+.left-section {
+  width: 22%;
+  /* max-width: 290px; */
+  height: 100vh;
+  overflow: hidden;
+}
+.right-section {
+  width: 78%;
+}
+.data-container {
+  padding: 38px 35px 20px 35px;
+  height: calc(100vh - 75px);
+}
+.birthday-special-main {
+  width: 100%;
+}
+.birthday-special-modal-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+}
+.birthday-special-left-content {
+  width: 40%;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.birthday-special-right-content {
+  width: 20%;
+  text-align: end;
+}
+.birthday-cake-sub-left-image {
+  width: 20%;
+}
+.birthday-cake-sub-right-content {
+  width: 60%;
+}
+.birthday-cake-sub-right-content .chocolate-truffle {
+  font-size: 25px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+}
+.birthday-cake-img {
+  width: 60px;
+  height: 62px;
+}
+.added-btn-birthday-special {
+  background-color: var(--Yellow);
+  padding: 10px 38px;
+  border-width: 0px;
+  border-radius: 10px;
+  color: var(--Black);
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+}
+.paperCustomWidth {
+  width: 70%;
+  max-width: 1000px !important;
+  overflow-y: hidden !important;
+  /* max-height: 700px !important;
+  height: calc(100% - 64px) !important; */
+}
+.MuiPaper-root.MuiPaper-elevation.MuiDialog-paper.paperCustomWidth {
+  max-height: 650px !important;
+  /* height: calc(100% - 64px) !important; */
+}
+.birthday-special-button-div-modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 52px;
+}
+.item-added-pera-birthday {
+  color: var(--Green);
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline;
+}
+.birthday-special-button-left-modal {
+  width: 30%;
+}
+.birthday-special-button-right-modal {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+.css-153eyq5-MuiModal-root-MuiDialog-root .MuiDialogContent-root {
+  padding-bottom: 52px !important;
+}
+.MuiDialogContent-root {
+  border-bottom: none !important;
+}
+a {
+  color: black;
+}
+a:active{
+  background: none;
+  color: black;
+}

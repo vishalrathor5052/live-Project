@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6035" data-name="Rectangle 6035" width="25" height="25" transform="translate(50 211)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Addons" transform="translate(-50 -211)" clip-path="url(#clip-path)">
+    <g id="Iconly_Broken_Plus" data-name="Iconly/Broken/Plus" transform="translate(48 209)">
+      <g id="Plus" transform="translate(2 2)">
+        <path id="Path_29096" data-name="Path 29096" d="M17.194,0C21.988,0,25,2.99,25,7.817h0v3.21a.945.945,0,0,1-.957.945h0V11.95a.956.956,0,0,1-.956-.956h0V7.817c0-3.815-2.089-5.9-5.893-5.9H7.817c-3.8,0-5.9,2.1-5.9,5.9h0v9.378c0,3.793,2.1,5.893,5.9,5.893h9.378c3.8,0,5.893-2.1,5.893-5.893a.956.956,0,1,1,1.913,0C25,22.01,22.01,25,17.194,25H7.817C2.99,25,0,22.01,0,17.194H0V7.817C0,2.99,2.99,0,7.817,0h9.378ZM12.588,14.556a.945.945,0,0,1,.923.989h0v1.209l-.017.15a.956.956,0,0,1-.972.773.967.967,0,0,1-.924-.99h0V15.479a.956.956,0,0,1,.99-.924Zm-.044-7.245a.945.945,0,0,1,.31.052.956.956,0,0,1,.68.915v2.989h3.255a.965.965,0,0,1,.989.967.957.957,0,0,1-.934.956H8.322a1.021,1.021,0,0,1-.99-.967.946.946,0,0,1,.946-.956h3.3v-3A.978.978,0,0,1,12.544,7.311Z" transform="translate(0 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

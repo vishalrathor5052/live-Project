@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6034" data-name="Rectangle 6034" width="25" height="25" transform="translate(50.479 148.479)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="order" transform="translate(-50.479 -148.479)" clip-path="url(#clip-path)">
+    <g id="Iconly_Broken_Bag-2" data-name="Iconly/Broken/Bag-2" transform="translate(51.02 148.479)">
+      <g id="Bag-2" transform="translate(0 0)">
+        <path id="Path_28632" data-name="Path 28632" d="M18.206,5.593h-.267a5.7,5.7,0,0,0-9.7-3.954A5.609,5.609,0,0,0,6.558,5.593H6.292A6.281,6.281,0,0,0,0,11.849v6.895A6.281,6.281,0,0,0,6.292,25a.938.938,0,1,0,0-1.875,4.4,4.4,0,0,1-4.406-4.381V11.849A4.4,4.4,0,0,1,6.292,7.468h.26V9.444a.943.943,0,0,0,1.886,0V5.636A3.745,3.745,0,0,1,9.562,2.969a4.1,4.1,0,0,1,2.7-1.094,3.791,3.791,0,0,1,3.793,3.718H11.928a.938.938,0,1,0,0,1.875H16.06V9.444a.943.943,0,0,0,1.886,0V7.468h.26a4.4,4.4,0,0,1,4.406,4.381v6.895a4.4,4.4,0,0,1-4.406,4.381H11.428a.938.938,0,1,0,0,1.875h6.778A6.281,6.281,0,0,0,24.5,18.744V11.849a6.281,6.281,0,0,0-6.292-6.256" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

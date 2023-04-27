@@ -1,0 +1,171 @@
+.ModalMainDiv {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 24;
+  /* margin-top: 5%; */
+  height: 87%;
+}
+
+.browse-modal{
+  color: #707070 !important;
+  border: 1px solid #707070 !important;
+  font-family: "Source Sans Pro" !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  padding: 8px 21px !important;
+  position: relative;
+  right: 22px;
+  border-radius: 5px !important;
+  text-transform: none;
+}
+.add-item-create-product-modal-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 2%;
+}
+.add-item-create-product-modal-left {
+  width: 60%;
+}
+.boxitem::-webkit-scrollbar {
+  display: none;
+}
+.add-item-create-product-modal-right {
+  width: 31%;
+  border: 0.5px solid #f8d40c;
+  border-radius: 5px;
+  height: 288px;
+  margin-top: 37px;
+  margin-right: 2%;
+}
+.add-item-modal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.dropdown-content-box-add-item {
+  width: 20%;
+}
+.add-more-add-item-product-modal {
+  margin-top: 26px;
+}
+.add-more-add-item-product-modal p {
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  color: var(--Yellow);
+  text-decoration: underline;
+  cursor: pointer;
+  width: fit-content;
+}
+.categaory-div-add-item {
+  width: 100%;
+  margin-top: 25px;
+}
+.css-1869usk-MuiFormControl-root {
+  margin: 0px;
+  width: 100%;
+}
+.css-1wc848c-MuiFormHelperText-root {
+  margin-left: 0px;
+  padding-bottom: 11px;
+}
+.add-item-bottom-div {
+  margin-top: 45px;
+  width: 45%;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  margin-left: 4%;
+}
+.add-cover-image-box-add-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.browse-add-item {
+  padding: 16px 33px;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+.add-cover-image-container {
+  width: 65%;
+}
+.product-browse-item-add {
+  width: 25%;
+  text-align: end;
+  margin-top: 10%;
+}
+.add-cover-box-image {
+  border: 1px solid #f8d40c;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-top: 15px;
+}
+.add-cover-image-container label {
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: #707070;
+  margin-left: 7%;
+}
+/* .add-more-add-item-product-label{
+    margin-top: 26px;
+  } */
+
+.add-more-add-item-product-label p {
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  color: var(--Yellow);
+  text-decoration: underline;
+}
+.add-item-create-product-modal-dropdown {
+  width: 40%;
+  position: static;
+  top: 60%;
+  /* border: 0.5px solid #f8d40c;
+    border-radius: 5px; */
+}
+.add-lable {
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  color: var(--Yellow);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: none !important;
+  border-style: none !important;
+}
+.sort-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* .lablediv {
+    width: 30%;
+    height: 40%;
+    width: 70%;
+    max-width: 537px !important;
+    min-height: 247px!important;
+  } */
+/* .css-1t1j96h-MuiPaper-root-MuiDialog-paper
+  {
+    width: 30%;
+    height: 40%;
+  } */
+  .cake-detail-modal-left-div::-webkit-scrollbar {
+    display: none;
+  }
+
+  .css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper::-webkit-scrollbar{
+    display: none;
+  }

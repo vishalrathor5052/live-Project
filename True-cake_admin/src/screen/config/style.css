@@ -1,0 +1,139 @@
+.css-1ujnqem-MuiTabs-root {
+  background-color: #f3f8fe;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root .Mui-selected {
+  color: var(--Black) !important;
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+}
+
+.admin-portal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.admin-portal-left-div {
+  width: 70%;
+}
+
+.admin-portal-right-div {
+  width: 33%;
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+}
+
+.css-13xfq8m-MuiTabPanel-root {
+  /* margin-top: 45px; */
+  padding: 0px !important;
+}
+
+.css-1yo1jo6-MuiStack-root {
+  margin-top: 0px !important;
+  /* flex-direction: column !important;
+    margin-left: 0px !important; */
+}
+
+/* .css-1yo1jo6-MuiStack-root{
+
+} */
+div.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  margin-top: 0px !important;
+  color: var(--Black) !important;
+  font-size: 16px !important;
+  font-family: "Source Sans Pro", "Bold" !important;
+  font-weight: bold !important;
+  border: 1px solid #31313180 !important;
+  padding: 2px 15px !important;
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: #fafafa !important;
+}
+
+.config-bottom-div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  position: absolute;
+  left: 25%;
+  top: 63%;
+  width: 250px;
+}
+
+.minimun-order-quantity-label {
+  font-size: 20px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Darkgrey);
+}
+
+.logo-label-config {
+  font-size: 20px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Darkgrey);
+}
+
+.favicon-label {
+  font-size: 20px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Darkgrey);
+}
+
+.maximum-order-quantity-label {
+  font-size: 20px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Darkgrey);
+}
+
+/* .config-label-color .css-1aquho2-MuiTabs-indicator {
+  background-color: #f8d40c !important;
+} */
+.browser-btn {
+  color: #707070 !important;
+  border: 1px solid #707070 !important;
+  font-family: "Source Sans Pro" !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  padding: 5px 15px !important;
+  position: relative;
+  right: 22px;
+  border-radius: 5px !important;
+  text-transform: none;
+  margin-left: 40px;
+  margin-top: 0px !important;
+}
+
+.div.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  color: black;
+  border-color: black;
+}
+
+/* .css-1y48f0p-MuiStack-root> :not(style)+ :not(style) {
+  color: #707070 !important;
+  border: 1px solid #707070 !important;
+  font-family: "Source Sans Pro" !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  padding: 5px 15px !important;
+  position: relative;
+  right: 22px;
+  border-radius: 5px !important;
+  text-transform: none;
+  margin-left: 40px;
+  margin-top: 0px !important;
+} */
+
+span.MuiTabs-indicator {
+  background-color: var(--Yellow) !important;
+}
+
+.Mui-selected {
+  color: black !important;
+}

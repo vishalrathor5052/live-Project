@@ -1,0 +1,43 @@
+.input-main {
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.input-main input {
+  padding: 11.2px 20px;
+  border: 1px solid var(--Yellow);
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.input-box:hover {
+  border: 1px solid var(--Yellow);
+}
+input:focus-visible {
+  outline: none !important;
+}
+.input-label-div {
+  text-align: left;
+}
+/* .input-label-div label{
+    font-size: 20px;
+    font-family: "Source Sans Pro", "Regular";
+    color: var(--Black);
+    font-weight: 400;
+} */
+.input-box-container {
+  text-align: left;
+  margin-top: 15px;
+  /* width: 169px; */
+}
+
+.error-message {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 14px;
+  color: red;
+}
+.input-box-style::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

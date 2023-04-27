@@ -1,0 +1,23 @@
+.common-button {
+    padding: 8px 30px;
+    background: var(--Yellow);
+    border-radius: 10px;
+    border: 1px solid var(--Yellow);
+    /* font-size: 18px; */
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Oswald", "Medium";
+    box-shadow: 2px 2px var(--Black);
+    cursor: pointer;
+
+  }
+  .button-padding{
+    padding: 8px 119px;
+    cursor: pointer;
+  }
+  .common-button:hover {
+    background-color: var(--Yellow);
+    /* box-shadow: 4px 4px var(--Black);
+    padding: 10px 32px; */
+
+  }

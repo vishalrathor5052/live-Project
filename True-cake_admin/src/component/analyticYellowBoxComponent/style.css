@@ -1,0 +1,20 @@
+.analytic-yellow-box-container{
+    width: 100%;
+    padding: 21px 16px;
+    background-color: var(--Yellow);
+    border-radius: 10px;
+    color: var(--Black);
+    box-sizing: border-box;
+}
+.analytic-yellow-box-heading{
+    font-size: 25px;
+    font-family: "Source Sans Pro", "Black";
+    font-weight: 900;
+    color: var(--Black);
+}
+.analytic-yellow-box-total-order{
+    font-family:"Source Sans Pro", "Regular";
+    font-weight: 400;
+    color: var(--Black);
+    font-size: 16px;
+}

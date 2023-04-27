@@ -1,0 +1,164 @@
+.analytic-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.analytic-left-section {
+  width: 65%;
+  /* display: flex;
+  justify-content: space-between; */
+}
+.analytic-right-section {
+  width: 30%;
+  border-left: 0.5px solid #313131;
+  margin-top: -38px;
+  padding-top: 38px;
+}
+.analytic-box-container {
+  width: 23%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  width: 134px;
+  left: 18px;
+}
+.analytic-center-div-order {
+  position: absolute;
+  /* top: 40%;
+    right: 30%; */
+}
+.analytic-center-div-revenue {
+  position: absolute;
+  right: -166px;
+  /* top: 40%;
+    right: 30%; */
+}
+
+.Chart-continer {
+  position: relative;
+  margin-top: 112px;
+  margin-left: 15px;
+  border-radius: 9px;
+  width: 98%;
+  border: 1px solid black;
+  height: 68%;
+}
+.chart-header {
+  /* position: absolute; */
+  display: flex;
+  margin-top: 16px;
+  justify-content: flex-end;
+}
+.revenueProfitLabel {
+  width: 59%;
+}
+.dropdown {
+  margin-right: 26px;
+  margin-top: -25px;
+  width: 25%;
+}
+
+.AnyliticChart {
+  height: 300px;
+  width: 600px;
+  margin-top: 58px;
+}
+/* right section css */
+.analytic-right-data-range-div {
+  border: 0.5px solid #313131;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 37px;
+  width: 74%;
+  padding-bottom: 10px;
+}
+.analytic-right-top-view {
+  background-color: var(--Black);
+  padding: 8px 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+.analytic-date-range-title {
+  color: var(--White);
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+}
+.analytic-right-top-performing-div {
+  margin-top: 35px;
+  border: 0.5px solid #313131;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  margin-left: 37px;
+  width: 74%;
+  /* max-height: 40%; */
+  /* overflow: auto; */
+}
+.analytic-top-performing-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 11px 0px 11px;
+  font-weight: bold;
+}
+.analytic-top-performing-sub-section {
+  width: 35%;
+}
+.analytic-top-performing-sub-section-name {
+  width: 40%;
+  font-weight: bold;
+}
+.analytic-top-performing-sub-section-name p {
+  font-size: 14px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+  text-align: left;
+}
+.analytic-top-performing-sub-section p {
+  font-size: 14px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+  text-align: right;
+}
+.analytic-top-performing-sub-section-middle {
+  width: 20%;
+}
+.analytic-top-performing-sub-section-middle p {
+  font-size: 14px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+  text-align: right;
+}
+.anyalytic-start-date {
+  display: flex;
+  justify-content: space-between;
+}
+.anyalytic-start-date p {
+  font-size: 16px;
+  color: var(--Black);
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 500;
+  margin-top: 20px;
+}
+.analytic-date-select {
+  display: flex;
+}
+.analytic-date-select p {
+  font-size: 14px;
+  color: var(--Black);
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  margin-right: 17px;
+}
+.analytic-data-range-sub-content-div {
+  display: flex;
+  justify-content: space-between;
+}
+.end-date {
+  margin-top: 21px;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root:focus-visible, .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+  outline: none;
+}

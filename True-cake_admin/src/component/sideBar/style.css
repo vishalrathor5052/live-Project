@@ -1,0 +1,49 @@
+.sidebar-container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--Black);
+}
+.sidebar-logo-div {
+  border-bottom: 1px solid var(--White);
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.sidebar-logo-div img {
+  width: 142px;
+  height: 33px;
+}
+.listText {
+  color: var(--White);
+}
+.listText .css-10hburv-MuiTypography-root {
+  font-size: 16px !important;
+  font-family: "Source Sans Pro", "Regular" !important;
+  font-weight: 400 !important;
+}
+.sidebar-main {
+  padding: 45px 0px 0px 30px;
+}
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:active {
+  background-color: var(--Yellow) !important;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  border: none;
+  /* background-color: aqua; */
+}
+.selected-list-item {
+  border-radius: 20px 0px 0px 20px;
+  background-color: var(--Yellow);
+  margin-left: 20px;
+}
+.selected-list-item .listText {
+  color: var(--Black);
+}
+
+.css-cveggr-MuiListItemIcon-root {
+  min-width: 0 !important;
+  margin-right: 20px !important;
+}

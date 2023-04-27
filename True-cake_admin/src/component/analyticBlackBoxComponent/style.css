@@ -1,0 +1,20 @@
+.analytic-black-box-container{
+    width: 100%;
+    padding:21px 16px;
+    background-color: var(--Black);
+    border-radius: 10px;
+    color: var(--White);
+    box-sizing: border-box;
+}
+.analytic-black-box-heading{
+    font-size: 25px;
+    font-family: "Source Sans Pro", "Black";
+    font-weight: 900;
+    color: var(--White);
+}
+.analytic-black-box-total-order{
+    font-family:"Source Sans Pro", "Regular";
+    font-weight: 400;
+    color: var(--White);
+    font-size: 16px;
+}

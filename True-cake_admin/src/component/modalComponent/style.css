@@ -1,0 +1,16 @@
+.modal-header-div {
+  background-color: var(--Black);
+  color: var(--White);
+}
+.modal-header-div h2 {
+  font-family: "Oswald", Bold;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--White);
+  text-align: center;
+  padding: 10px 0px;
+}
+.modal-main-div ::-webkit-scrollbar {
+  display: none;
+  overflow-y: auto;
+}

@@ -1,0 +1,103 @@
+.dashboard-header {
+  /* width: 100%; */
+  height: 45px !important;
+  position: static;
+  padding: 15px 63px 15px 35px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 6px 6px #31313138;
+  background-color: var(--White);
+}
+.header-title {
+  font-size: 25px;
+  font-family: "Oswald", "Bold";
+  font-weight: bold;
+  color: var(--Black);
+  text-transform: uppercase;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 0px;
+}
+.user-profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #000000;
+}
+.admin-profile-div {
+  display: flex;
+  align-items: center;
+}
+.login-user {
+  font-size: 15px;
+  font-family: "Ubuntu", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+  text-transform: capitalize;
+}
+.admin-content {
+  text-align: left;
+  display: flex;
+  /* align-items: center; */
+  width: auto;
+  padding: 5px 10px;
+  /* height: 32px; */
+}
+.admin-name {
+  font-size: 10px;
+  font-family: "Ubuntu", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+}
+.user-content-div {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.down-arrow {
+  position: relative;
+  top: 12px;
+  width: 19px;
+  height: 5px;
+  cursor: pointer;
+}
+.open-dropdown {
+  background-color: var(--White);
+  box-shadow: 0px 10px 6px #00000029;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: 1px solid #00000029;
+}
+.dropDown {
+  position: relative;
+  /* top: 20px;
+  left: 1365px; */
+  width: auto !important;
+  /* height: 143px; */
+}
+.dropDownAdmin {
+  z-index: 1;
+  position: absolute;
+  top: 47px;
+  padding: 10px;
+  background-color: var(--White);
+  border: 1px solid #00000029;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0px 10px 6px #00000029;
+  /* top: 5px; */
+  width: 100%;
+  box-sizing:border-box;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  /* height: 143px; */
+}
+.dropDownAdmin a {
+  font-size: 15px;
+  font-family: "Ubuntu", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+  padding: 5px;
+}

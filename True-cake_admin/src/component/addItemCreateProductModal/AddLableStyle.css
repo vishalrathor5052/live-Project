@@ -1,0 +1,18 @@
+.ModalLableMainDiv {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 24;
+  margin-top: 5%;
+  /* height: 87%; */
+}
+.lablediv {
+  width: 30%;
+  height: 40%;
+  width: 70%;
+  max-width: 537px !important;
+  min-height: 247px !important;
+}

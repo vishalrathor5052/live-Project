@@ -1,0 +1,96 @@
+.birthdaySpecal-container {
+  width: 55%;
+  /* display: flex; */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 24;
+}
+.birthday-special-main {
+  width: 100%;
+  position: relative;
+  overflow-y: auto;
+  height: auto;
+  max-height: 500px;
+}
+.birthday-special-modal-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+}
+.birthday-special-left-content {
+  width: 40%;
+  display: flex;
+  margin-left: 2%;
+
+  /* justify-content: space-between; */
+}
+.birthday-special-right-content {
+  width: 20%;
+  text-align: end;
+  margin-right: 2%;
+}
+.birthday-cake-sub-left-image {
+  width: 20%;
+}
+.birthday-cake-sub-right-content {
+  width: 60%;
+}
+.birthday-cake-sub-right-content .chocolate-truffle {
+  font-size: 25px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+}
+.birthday-cake-img {
+  width: 60px;
+  height: 53px;
+  margin-top: 8px;
+}
+.added-btn-birthday-special {
+  background-color: var(--Yellow);
+  padding: 10px 38px;
+  border-width: 0px;
+  border-radius: 10px;
+  color: var(--Black);
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 70%;
+  max-width: 1000px !important;
+  /* min-height: 621px!important; */
+}
+.birthday-special-button-div-modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.item-added-pera-birthday {
+  color: var(--Green);
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline;
+}
+.birthday-special-button-left-modal {
+  width: 30%;
+}
+.birthday-special-button-right-modal {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+.css-153eyq5-MuiModal-root-MuiDialog-root .MuiDialogContent-root {
+  padding-bottom: 52px !important;
+}
+.birthday-special-main::-webkit-scrollbar {
+  display: none;
+}

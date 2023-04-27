@@ -1,0 +1,99 @@
+.cake-item-container {
+  width: 60%;
+  /* display: flex; */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 24;
+}
+.cake-item-main {
+  width: 100%;
+  position: relative;
+  overflow-y: auto;
+  height: 500px;
+  margin: 20px;
+}
+.cake-item-modal-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+}
+.cake-item-left-content {
+  width: 40%;
+  display: flex;
+
+  /* justify-content: space-between; */
+}
+.cake-item-right-content {
+  width: 20%;
+  text-align: end;
+  margin-right: 5%;
+}
+.cake-item-sub-left-image {
+  width: 20%;
+}
+.cake-item-sub-right-content {
+  font-size: 25px;
+  font-family: "Source Sans Pro";
+  width: 60%;
+}
+.birthday-cake-sub-right-content .chocolate-truffle {
+  font-size: 25px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+}
+.cake-item-img {
+  width: 60px;
+  height: 53px;
+  margin-top: 8px;
+}
+.added-btn-cake-item {
+  background-color: var(--Yellow);
+  padding: 10px 38px;
+  border-width: 0px;
+  border-radius: 10px;
+  color: var(--Black);
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 70%;
+  max-width: 1000px !important;
+  /* min-height: 621px!important; */
+}
+.cake-item-button-div-modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.item-added-pera-birthday {
+  color: var(--Green);
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline;
+  padding-bottom: 20px;
+  margin-left: 7%;
+}
+.cake-item-button-left-modal {
+  width: 30%;
+}
+.cake-item-button-right-modal {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+.css-153eyq5-MuiModal-root-MuiDialog-root .MuiDialogContent-root {
+  padding-bottom: 52px !important;
+}
+.cake-item-main::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,114 @@
+.OfferModal-container {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 24;
+}
+
+.create-offer-container-modal {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 2%;
+}
+
+.create-offer-left-section-modal {
+  width: 65%;
+}
+
+.create-offer-right-section-modal {
+  width: 30%;
+  border: 0.5px solid #f8d40c;
+  border-radius: 5px;
+  height: 288px;
+  margin-top: 37px;
+  margin-right: 2%;
+}
+
+.offer-image-modal-right {
+  width: 86%;
+  border: 0.5px solid #f8d40c;
+  border-radius: 5px;
+  height: 304px;
+  margin-top: 35px;
+  margin-left: 32px;
+}
+
+.input-box::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.save-cancle-button {
+  margin-top: 45px;
+  width: 50%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 2%;
+  margin-left: 4%;
+}
+
+.image-lable-div {
+  margin-top: 2%;
+  margin-left: 4%;
+}
+
+.image-browser-main-div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.image-name-input {
+  width: 60%;
+}
+
+.browser-button-div {
+  margin-top: 2%;
+  width: 20%;
+  position: relative;
+  left: 3%;
+}
+
+.browse-modal {
+  color: #707070 !important;
+  border: 1px solid #707070 !important;
+  font-family: "Source Sans Pro" !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  padding: 8px 21px !important;
+  position: relative;
+  right: 22px;
+  border-radius: 5px !important;
+  text-transform: none;
+}
+
+.offer-select-category {
+  border: 1px solid #f8d40c;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.offer-status-dropdown {
+  border: 1px solid #f8d40c;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.boxitem::-webkit-scrollbar {
+  display: none;
+}
+.offer-select-category:focus-visible{
+  outline: none;
+}
+.offer-status-dropdown:focus-visible{
+  outline: none;
+}

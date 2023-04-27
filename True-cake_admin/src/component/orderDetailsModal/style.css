@@ -1,0 +1,239 @@
+.order-Detail-Container {
+  width: 65%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 24;
+}
+
+.order-detail-modal-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 100%;
+  margin-top: 2%;
+}
+.order-detail-modal-left-div {
+  width: 60%;
+  height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.order-detail-modal-right-div {
+  width: 30%;
+}
+.order-detail-modal-heading {
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  font-size: 25px;
+  color: var(--Black);
+  /* position: absolute;
+  left: 191px; */
+}
+.order-detail-modal-content-div {
+  margin-top: 37px;
+}
+.order-detail-modal-pera {
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+}
+.order-detail-modal-date-content {
+  margin-top: 10px;
+}
+.order-detail-modal-upload-image-div {
+  margin-top: 25px;
+  margin-left: 5px;
+}
+.order-detail-modal-update-image-heading {
+  font-size: 20px;
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  color: var(--Black);
+}
+.order-detail-modal-sub-div {
+  margin-top: 15px;
+}
+.browse-button-order-detail-modal {
+  color: #707070 !important;
+  border: 1px solid #707070 !important;
+  font-family: "Source Sans Pro" !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  padding: 8px 21px !important;
+  position: relative;
+  right: 22px;
+  border-radius: 5px !important;
+  text-transform: none;
+}
+.order-detail-modal-sub-main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.order-detail-modal-input-box {
+  padding: 11.2px 20px;
+  border: 1px solid var(--Yellow);
+  border-radius: 5px;
+  width: 68%;
+  box-sizing: border-box;
+}
+.order-detail-modal-image {
+  margin-top: 15px;
+  width: 82px;
+  height: 85px;
+  border: 0.5px solid #f8d40c;
+  border-radius: 5px;
+}
+.order-detail-customer-instruction-div {
+  margin-top: 25px;
+}
+.customer-instruction-heading {
+  font-size: 20px;
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  color: var(--Black);
+}
+.order-detail-cancle-order-div {
+  margin-top: 25px;
+}
+.cancle-order-heading {
+  font-size: 20px;
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  color: var(--Black);
+}
+.refund-accept-order-detail-div {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+.order-detail-refund-accepted-pera {
+  margin-left: 10px;
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: #000000;
+}
+.order-detail-modal-refund-amount {
+  margin-top: 15px;
+  margin-left: -24px;
+  width: 104%;
+}
+.track-order-heading {
+  font-size: 20px;
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  color: var(--Black);
+}
+
+.order-detail-modal-left-div::-webkit-scrollbar {
+  display: none;
+}
+
+/* -------------------order History-------------------------------------- */
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+.orderHistory-container {
+  width: 100%;
+}
+.circular-cat-main {
+  display: flex;
+}
+.orderHistory-main {
+  width: 100%;
+  padding: 50px 50px;
+}
+.orderHistory-card-div {
+  margin-top: 16px;
+  /* display: flex;
+  justify-content: space-between;
+  width: 93%; */
+  background-color: beige;
+}
+#orderHistory-heading {
+  font-size: 16px;
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+  color: var(--Darkgrey);
+}
+.orderHistory-para {
+  font-size: 14px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--gray);
+  width: 20%;
+}
+.cakeImage {
+  width: 70px;
+  height: 78px;
+  object-fit: cover;
+  padding-top: 3px;
+}
+.orderHistory-left-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+.orderHistory-delivery-date {
+  font-size: 16px;
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+  color: var(--Darkgrey);
+}
+.orderhistory-left-content {
+  margin-left: 18px;
+  margin-top: 0px;
+}
+.orderHistory-price {
+  font-size: 14px;
+  font-family: "Oswald", "bold";
+  font-weight: bold;
+  text-align: end;
+  color: var(--Green);
+  position: relative;
+  right: 31px;
+  width: 103px;
+}
+.mobile-order-history-container {
+  display: none;
+}
+.order-history-bottom-div {
+  border-bottom: 3px solid var(--Black);
+  width: 191px;
+  margin-left: 130px;
+  position: relative;
+  top: 39px;
+}
+.orderdetail {
+  width: 100%;
+}
+.cake-detail-left {
+  width: 30%;
+  display: flex;
+}
+.cake-detail-right {
+  width: 70%;
+}
+/* .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: green !important;
+} */
+
+.track-order-bottom-div {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+  right: 28px;
+  justify-content: space-around;
+}

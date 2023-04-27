@@ -1,0 +1,138 @@
+.Addon-Container {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 24;
+}
+.addon-main-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: hidden;
+  margin-top: 2%;
+}
+.addon-left {
+  width: 65%;
+}
+.addon-balloon-modal-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: hidden;
+  margin-top: 2%;
+}
+.addon-balloon-modal-left {
+  width: 65%;
+}
+.addon-balloon-modal-right {
+  width: 31%;
+  text-align: end;
+  margin-right: 2%;
+}
+.image-container {
+  border: 0.5px solid #f8d40c;
+  border-radius: 5px;
+  height: 288px;
+}
+.image-type2-continer {
+  border: 0.5px solid #f8d40c;
+  border-radius: 5px;
+  height: 288px;
+  margin-top: 47px;
+}
+.categaory-div-add-item {
+  width: 100%;
+  margin-top: 25px;
+  /* border: 0.5px solid #f8d40c; */
+}
+.browser {
+  color: #707070 !important;
+  border: 1px solid #707070 !important;
+  font-family: "Source Sans Pro" !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  padding: 8px 21px !important;
+  position: relative;
+  right: 22px;
+  border-radius: 5px !important;
+  text-transform: none;
+}
+.add-item-bottom-div {
+  position: relative;
+  left: 20px;
+  margin-top: 6%;
+}
+.inputQunity::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input-box::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Addon::-webkit-scrollbar {
+  display: none;
+}
+.Addons-image-lable {
+  margin-left: 4%;
+}
+.image-browse-main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.image-name-div {
+  width: 70%;
+}
+.browse-main-div {
+  margin-top: 2%;
+  width: 20%;
+}
+.option-image-browse-main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.option-image-name-div {
+  width: 70%;
+}
+.option-browse-main-div {
+  margin-top: 2%;
+  width: 20%;
+}
+.add-more-link {
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  color: var(--Yellow);
+  text-decoration: underline;
+  cursor: pointer;
+  width: fit-content;
+  margin-top: 2%;
+}
+.option-cancal-save-div {
+  position: relative;
+  /* left: 20px; */
+  right: 2%;
+  margin-top: 6%;
+  width: 50%;
+  display: flex;
+
+  justify-content: space-evenly;
+  /* justify-content: space-between; */
+}
+.option-image-lable {
+  margin-left: 4%;
+}
+.addon-cancal-save-button {
+  position: relative;
+  /* left: 20px; */
+  margin-top: 6%;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}

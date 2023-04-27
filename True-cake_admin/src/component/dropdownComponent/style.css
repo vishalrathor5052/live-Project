@@ -1,0 +1,30 @@
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root, .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select{
+    /* border: 1px solid #F8D40C; */
+border-radius: 5px;
+outline: none;
+box-shadow: none;
+border-width: none;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root:focus-visible, .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+    outline: none;
+}
+.css-1869usk-MuiFormControl-root{
+margin: 0px !important;
+}
+.css-1wc848c-MuiFormHelperText-root{
+margin-left: 0px !important;
+line-height: 0%;
+/* margin-bottom: 12px !important; */
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+    height: 40px;
+}
+.css-1wc848c-MuiFormHelperText-root{
+    font-size: 16px !important;
+    font-family: "Source Sans Pro", "Regular" !important;
+    font-weight: 400 !important;
+    color: var(--Black) !important;
+}
+.Dropdown::-webkit-scrollbar {
+    display: none;
+}

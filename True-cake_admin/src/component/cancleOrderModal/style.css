@@ -1,0 +1,30 @@
+.cancle-order-container-modal {
+  /* width: 100%; */
+  width: 65%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  box-shadow: 24;
+  height: 30%;
+}
+.cancle-order-pera {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+  margin-top: 4%;
+}
+.cancle-order-modal-contained {
+  width: 50%;
+  margin: auto;
+}
+.cancle-order-bottom-div {
+  padding-top: 45px;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}

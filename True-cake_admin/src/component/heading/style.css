@@ -1,0 +1,10 @@
+.heading-div{
+    width: 100%;
+}
+.heading-text{
+    font-size: 30px;
+    font-family: "Oswald", "Medium";
+    font-weight: 500;
+    color: var(--Black);
+    text-transform: uppercase;
+}

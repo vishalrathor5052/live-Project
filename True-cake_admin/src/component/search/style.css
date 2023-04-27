@@ -1,0 +1,12 @@
+.search-main {
+  /* width: 100%; */
+  border: 1px solid #f8d40c;
+  border-radius: 5px;
+  display: flex;
+  /* padding: 10px 15px; */
+}
+.css-1vm0r4s-MuiPaper-root {
+  box-shadow: none !important;
+  width: 100%;
+  box-sizing: border-box;
+}

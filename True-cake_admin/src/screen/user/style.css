@@ -1,0 +1,16 @@
+.user-main-div {
+  width: 100%;
+  height: 100%;
+}
+.user-top-div {
+}
+.user-left-section {
+  width: 40%;
+}
+.user-bottom-div {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin-top: 37px;
+  overflow-x: auto;
+}

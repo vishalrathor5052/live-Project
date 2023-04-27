@@ -1,0 +1,62 @@
+.track-order-main {
+  width: 100%;
+  margin-top: 23px;
+}
+.track-order-content-div {
+  display: flex;
+}
+.track-order-left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trackorder-circle {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: var(--Green) !important;
+}
+.trackorder-circle-line {
+  height: 80px;
+  background-color: var(--Green) !important;
+  width: 3px;
+  margin: 2px 0px 2px 0px;
+}
+.trackorder-right-content-heading {
+  font-size: 19px;
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  color: var(--Black);
+}
+.trackorder-right-content-para {
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--Black);
+}
+.track-order-right-content {
+  margin-left: 28px;
+}
+.trackorder-circle-gray {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: #898989;
+}
+.trackorder-circle-line-gray {
+  height: 80px;
+  background-color: #898989;
+  width: 3px;
+  margin: 2px 0px 2px 0px;
+}
+.track-order-bottom-div {
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+/* .hey-baby,
+.hello-india,
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: red !important;
+} */
