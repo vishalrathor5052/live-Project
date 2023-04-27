@@ -1,0 +1,152 @@
+.ballon-modal-container {
+  width: 100%;
+  background-color: var(--Darkgrey);
+  height: 800px;
+  padding-top: 55px;
+  padding-left: 270px;
+  padding-right: 270px;
+}
+
+.ballon-modal-sub-container {
+  height: 300px;
+}
+
+.modal-content {
+  padding-left: 35px;
+  padding-right: 35px;
+  /* padding-top: 30%; */
+ 
+  /* padding-top: 10%; */
+}
+
+.modal-contents {
+  background-color: #ffffff;
+  height: 500px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.modal-cake-img {
+  height: 149x;
+  width: 143px;
+}
+
+.balloon-option-image {
+  width: 92px;
+  height: 92px;
+}
+
+.modal-chocolate-truffle {
+  text-align: left;
+  font: normal normal normal 30px/78px Oswald;
+  letter-spacing: 0px;
+  color: #313131;
+  width: 100%;
+}
+
+.modal-img-div {
+  width: 25%;
+}
+
+.modal-chocolate-truffle-div {
+  display: flex;
+}
+
+.modal-cake-price-main {
+  width: 45%;
+  display: flex;
+  line-height: 80px;
+}
+
+.balloon-option-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.modal-price {
+  font: normal normal bold 45px/78px Oswald;
+  color: #1ab963;
+}
+
+.modal-inclusive-text {
+  color: #7a7a7a;
+  font-size: 25px;
+  padding-left: 10px;
+  opacity: 1;
+}
+
+.balloon-option-heading {
+  font-size: 25px;
+  width: 100%;
+  font-family: "Oswald", "Bold";
+  font-weight: bold;
+  color: var(--Black);
+  text-align: center;
+}
+
+.balloon-option-container {
+  width: 100%;
+}
+
+.balloon-option {
+  display: flex;
+}
+
+.balloon-color-option {
+  margin-left: 25px;
+}
+
+.balloon-option-add {
+  background-color: var(--Yellow);
+  border: 1px solid #f8d40c;
+  border-radius: 10px;
+  padding: 11px 41px;
+  font-size: 20px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+}
+
+.balloon-color-name {
+  font-size: 25px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+}
+.add-button-div{
+width: 130px;
+height: 55px;
+}
+/* .popup-buttuon-div{
+  margin-left: 10px;
+} */
+.balloon-mdl-btn{
+  padding: 8px 30px;
+  background: var(--Yellow) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", "Medium";  
+  box-shadow: 2px 2px var(--Black);
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+  .balloon-color-name {
+   font-size: 14px;
+  }
+  .balloon-option-image{
+    width: 40px;
+    height: 40px;
+  }
+  .add-button-div{
+    padding: 4px 19px;
+  }
+  .modal-body{
+    padding: 0px;
+  }
+
+}

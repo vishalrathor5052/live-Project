@@ -1,0 +1,21 @@
+.cart-input-div {
+  width: 100%;
+}
+.cart-input-label {
+  width: 100%;
+  font-size: 25px;
+  font-family: "Oswald" ,"Regular";
+  font-weight: 400;
+  color: var(--Black);
+}
+.card-input {
+  width: 100%;
+  border: 1px solid var(--Yellow);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: var(--Black);
+}
+.card-input:focus-visible {
+  border: 1px solid var(--Yellow);
+}

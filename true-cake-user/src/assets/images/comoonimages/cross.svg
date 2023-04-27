@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="Group_947" data-name="Group 947" transform="translate(-1339 -352)">
+    <g id="Rectangle_5703" data-name="Rectangle 5703" transform="translate(1339 352)" fill="#fff" stroke="#f8d40c" stroke-width="1">
+      <rect width="45" height="45" rx="10" stroke="none"/>
+      <rect x="0.5" y="0.5" width="44" height="44" rx="9.5" fill="none"/>
+    </g>
+    <g id="Group_942" data-name="Group 942">
+      <path id="Icon_material-cancel" data-name="Icon material-cancel" d="M14.5,3A11.5,11.5,0,1,0,26,14.5,11.489,11.489,0,0,0,14.5,3Z" transform="translate(1347 360)" fill="#f8d40c"/>
+      <path id="Path_26942" data-name="Path 26942" d="M4.886-.962,4.614-5.348H.5v-2.38H4.614L4.672-11.9,6.8-12.149l.161,4.421h4.26v2.38H6.964l.088,4.172Z" transform="translate(1361.982 383.273) rotate(-45)" fill="#313131"/>
+    </g>
+  </g>
+</svg>

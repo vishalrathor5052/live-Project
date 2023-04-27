@@ -1,0 +1,40 @@
+.mobile-header-main{
+    background-color:var(--Black);
+    width: 100%;
+    padding: 30px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 15px 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: none;
+}
+.address-images{
+    width: 25px;
+    height: 25px;
+}
+.offer-image{
+    width: 25px;
+    height: 25px;
+}
+@media screen and (max-width: 600px) {
+    .mobile-header-main{
+        display:flex ;
+        justify-content: space-between;
+    }
+    .mobile-header-main-inner{
+        display:flex ;
+        justify-content: space-between;
+    }
+    .whatsapp-icon{
+        margin-right: 15px;
+    }
+    .location-icon{
+        width: 15%;
+    }
+    .true-cake-logo{
+       width: 159px;
+       height: 37px;
+    }
+}

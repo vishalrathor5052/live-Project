@@ -1,0 +1,10 @@
+<svg id="Add_Address" data-name="Add Address" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Rectangle_5750" data-name="Rectangle 5750" fill="#f8d40c" stroke="#f8d40c" stroke-width="0.5">
+    <rect width="60" height="60" rx="10" stroke="none"/>
+    <rect x="0.25" y="0.25" width="59.5" height="59.5" rx="9.75" fill="none"/>
+  </g>
+  <g id="Icon_feather-edit-3" data-name="Icon feather-edit-3" transform="translate(12.85 13.65)">
+    <path id="Path_28160" data-name="Path 28160" d="M18,30H30.65" transform="translate(-0.85 -1.618)" fill="none" stroke="#111011" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_28161" data-name="Path 28161" d="M23.474,5.191a2.982,2.982,0,0,1,4.217,4.217L10.122,26.977,4.5,28.382,5.906,22.76Z" fill="none" stroke="#111011" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

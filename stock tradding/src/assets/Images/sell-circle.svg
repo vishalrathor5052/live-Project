@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="sell_circle" data-name="sell circle" transform="translate(-75 -369)">
+    <g id="Group_14942" data-name="Group 14942" transform="translate(25 26)">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="22" cy="22" r="22" transform="translate(50 343)" fill="#fc9e22"/>
+    </g>
+    <g id="Iconly_Two-tone_Arrow---Down" data-name="Iconly/Two-tone/Arrow---Down" transform="translate(91 384)">
+      <g id="Arrow---Down" transform="translate(0 0)">
+        <line id="Stroke-1" y2="15" transform="translate(6.025 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+        <path id="Stroke-3" d="M12.8,15.75,6.775,9.7.75,15.75" transform="translate(-0.75 -9.7)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

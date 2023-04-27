@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="right_arrow_with_yellow_bg" data-name="right arrow with yellow bg" transform="translate(-1820)">
+    <g id="Group_727" data-name="Group 727" transform="translate(1820)">
+      <circle id="Ellipse_86" data-name="Ellipse 86" cx="25" cy="25" r="25" fill="#f8d40c"/>
+    </g>
+    <g id="Iconly_Broken_Arrow---Left-3" data-name="Iconly/Broken/Arrow---Left-3" transform="translate(1836 20)">
+      <g id="Arrow---Left-3" transform="translate(0 0)">
+        <path id="Path_27094" data-name="Path 27094" d="M10.283,9.238H6.217v8.027a.717.717,0,1,1-1.435,0V9.238H.717a.714.714,0,0,1-.628-.38A.748.748,0,0,1,.11,8.114L4.893.344a.708.708,0,0,1,1.215,0L9.083,5.179a.744.744,0,0,1-.224,1.012.709.709,0,0,1-.99-.231L5.5,2.113,2.016,7.77h8.267a.734.734,0,0,1,0,1.468" transform="translate(18 0) rotate(90)" fill="#313131"/>
+      </g>
+    </g>
+  </g>
+</svg>

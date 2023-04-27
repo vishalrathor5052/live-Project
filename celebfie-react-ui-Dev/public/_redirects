@@ -1,0 +1,3 @@
+/graphql/*  http://35.154.156.245:7002/graphql:splat 200!
+/api/*      /.netlify/functions/:splat 200!
+/* /index.html 200

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5955" data-name="Rectangle 5955" width="14" height="14" transform="translate(1113.912 199.912)" fill="#111011" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="filter" transform="translate(-1113.912 -199.912)" clip-path="url(#clip-path)">
+    <g id="Iconly_Broken_Filter-2" data-name="Iconly/Broken/Filter-2" transform="translate(1114 200)">
+      <g id="Filter-2" transform="translate(0 0)">
+        <path id="Path_2658" data-name="Path 2658" d="M12.352,0a1.5,1.5,0,0,1,1.472,1.516V2.575a1.545,1.545,0,0,1-.442,1.082L8.766,8.326v3.518a.55.55,0,0,1-.308.5L5.471,13.773a.518.518,0,0,1-.225.051.533.533,0,0,1-.485-.318.558.558,0,0,1,.259-.731L7.7,11.493V8.1a.558.558,0,0,1,.16-.392l4.777-4.833a.422.422,0,0,0,.121-.3V1.516a.411.411,0,0,0-.4-.416H6.2A.542.542,0,0,1,5.667.55.543.543,0,0,1,6.2,0ZM3.607,0A.546.546,0,0,1,4.14.556a.545.545,0,0,1-.534.556H1.472a.414.414,0,0,0-.4.42V2.626a.431.431,0,0,0,.109.287l4.4,4.89a.567.567,0,0,1,.144.38v2.754a.534.534,0,1,1-1.067,0V8.4L.4,3.674A1.563,1.563,0,0,1,0,2.626V1.532A1.5,1.5,0,0,1,1.472,0Z" transform="translate(0 0)" fill="#111011"/>
+      </g>
+    </g>
+  </g>
+</svg>

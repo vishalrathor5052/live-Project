@@ -1,0 +1,41 @@
+.add-delivery-container {
+  padding: 50px 50px;
+}
+.inputbox-main-div {
+  width: 80%;
+  margin: auto;
+  margin-top: 46px;
+}
+.input-lable {
+  font-size: 25px;
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+  color: var(--Darkgrey);
+}
+.inputbox-txt {
+  border: 1px solid #f8d40c;
+  border-radius: 5px;
+}
+.form-control {
+  border: none;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.common-button {
+  width: 100%;
+}
+.delivery-dropdown {
+  background-color: var(--white);
+  border: 1px solid #f8d40c;
+  color: var(--Darkgrey);
+}
+.delivery-dropdown-main {
+  margin-right: 10%;
+}
+.delivery-dropdown:hover {
+  border: 1px solid #f8d40c !important;
+  background-color: var(--white) !important;
+  color: var(--Darkgrey) !important;
+}

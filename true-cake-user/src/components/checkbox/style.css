@@ -1,0 +1,32 @@
+.checkbox-main {
+
+    /* background-color: blue; */
+}
+
+.check-box {
+    display: flex;
+    align-items: center;
+}
+
+.check-img {
+    height: 32px;
+    width: 32px;
+}
+
+.checkbox-line {
+    padding-left: 5px;
+    position: relative;
+
+    color: var(--Darkgrey);
+}
+
+@media screen and (max-width: 600px) {
+    .checkbox-div {
+        width: 20px;
+        height: 20px;
+    }
+
+    .checkbox-main {
+        width: 100%;
+    }
+}

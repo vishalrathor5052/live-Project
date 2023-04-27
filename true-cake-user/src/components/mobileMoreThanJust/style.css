@@ -1,0 +1,110 @@
+.mobile-screenimage-main-div {
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/images/screenimage/Addoncakes.png);
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 38px 0px 38px 15px;
+  z-index: -1;
+}
+.heading-more-than-just {
+  width: 115px;
+}
+.more-then-text {
+  font-size: 25px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--White);
+  margin-top: 90px;
+}
+.yellow-line {
+  height: 20px;
+  width: 100%;
+  background-color: #f8d40c;
+  position: absolute;
+  bottom: 0px;
+}
+.men-img {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  border-radius: 100px;
+  border: 5px solid;
+  border-color: #f8d40c;
+  position: absolute;
+  bottom: 70px;
+  left: -90px;
+}
+.man-img-circle {
+  height: 170px;
+  width: 170px;
+}
+.morethen-just-heading {
+  font-size: 35px;
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+  color: var(--White);
+}
+.morethen-heading-bottom-div {
+  border-bottom: 3px solid var(--White);
+  width: 191px;
+  margin-left: 45%;
+  position: relative;
+  top: 39px;
+}
+.mobile-morethenjust-div {
+  width: 100%;
+  height: 100%;
+  padding: 0px 0px 38px 15px;
+  background-image: url(../../assets/images/screenimage/Addoncakes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+.mobile-morethan-just-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.mobile-morethen-just-left-div {
+  width: 60%;
+  margin-top: 38px;
+}
+.mobile-morethen-just-right-div {
+  width: 40%;
+}
+.mobile-morethen-pera {
+  font-size: 14px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--White);
+  margin-top: 35px;
+}
+.mobile-morethen-right-content {
+  background-color: #3e3f41;
+  width: 108pt;
+}
+/* mobile view css */
+@media screen and (max-width: 600px) {
+  .morethen-just-heading {
+    font-size: 16pt;
+    /* text-transform: capitalize; */
+  }
+  .more-then-text {
+    font-size: 14pt;
+  }
+  .morethen-heading-bottom-div {
+    width: 131px;
+    margin-left: 39%;
+    margin-top: -8%;
+    margin-bottom: 10%;
+  }
+  .cat-heading-container-more{
+    align-items: flex-start !important;
+  }
+  
+}

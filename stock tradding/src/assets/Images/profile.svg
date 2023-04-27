@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_2486" data-name="Path 2486" d="M0,0H20V20H0Z" transform="translate(0 1)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="profile" transform="translate(0 -1)" clip-path="url(#clip-path)">
+    <g id="Iconly_Two-tone_2-User" data-name="Iconly/Two-tone/2-User" transform="translate(-1.99 -1.949)">
+      <g id="_2-User" data-name="2-User" transform="translate(2.75 3.25)">
+        <path id="Stroke-1" d="M7.591,12.707c3.689,0,6.842.559,6.842,2.792S11.3,18.307,7.591,18.307c-3.69,0-6.842-.554-6.842-2.788S3.881,12.707,7.591,12.707Z" transform="translate(-0.749 0.092)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+        <path id="Stroke-3" d="M7.591,9.52a4.37,4.37,0,1,1,.031,0Z" transform="translate(-0.749 0.25)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+        <path id="Stroke-5" d="M14.483,8.382a3.3,3.3,0,0,0,.075-6.518" transform="translate(-0.749 0.25)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+        <path id="Stroke-7" d="M16.6,12.232c1.551.231,2.634.775,2.634,1.9,0,.771-.51,1.271-1.334,1.584" transform="translate(-0.749 0.092)" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

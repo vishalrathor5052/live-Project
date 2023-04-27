@@ -1,0 +1,7 @@
+.main-spinner{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+}

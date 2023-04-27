@@ -1,0 +1,212 @@
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.circle-image-slide {
+  display: flex;
+  margin-top: 42px;
+}
+.circular-cat-main {
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: auto;
+}
+.circular-cat-main::-webkit-scrollbar {
+  display: none;
+}
+.delivery-addressess-main {
+  padding: 58px 50px;
+  /* margin: 17% 50px; */
+}
+
+.delivery-addresssess-main {
+  margin: 49px;
+  margin-top: 80px;
+}
+
+.delivery-addressess-heading-bottom-div {
+  border-bottom: 3px solid var(--Black);
+  width: 191px;
+  margin-left: 56px;
+  position: relative;
+  top: 39px;
+  /* cursor: pointer; */
+}
+
+.delivery-addressess-edit-main {
+  margin-top: 72px;
+  cursor: pointer;
+}
+
+.delivery-addressess-edit-main-div {
+  display: flex;
+  /* cursor: pointer; */
+}
+
+.delivery-addressess-right-div {
+  border: 0.5px solid #f8d40c;
+  border-radius: 10px;
+  padding: 20px 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.delivery-addressess-rigtt-content {
+  display: flex;
+  align-items: center;
+}
+
+.delivery-addressess-right-content {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+
+.delivery-address-edit-section {
+  width: 65%;
+  text-align: end;
+  cursor: pointer;
+}
+
+.delivery-address-pera-div {
+  font-size: 18px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+}
+.radio-btn-delivery-address {
+  align-items: center;
+  display: flex;
+}
+.MuiButtonBase-root.MuiRadio-root.Mui-checked {
+  color: var(--Black) !important;
+}
+.back-arrow-icon {
+  display: none;
+}
+.add-delivery-address-btn,
+.continue-common-button {
+  padding: 8px 30px;
+  background: var(--Yellow) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", "Medium";
+  box-shadow: 2px 2px var(--Black);
+  margin-bottom: 20px;
+  /* margin-left: 10px; */
+}
+.continue-common-button {
+  margin-left: 10px;
+}
+/* .continue-common-button{
+  padding: 8px 30px;
+  background: var(--Yellow) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", "Medium";  
+  box-shadow: 2px 2px var(--Black);
+  margin-bottom: 20px;
+ } */
+.delivery-address-cross-btn {
+  width: 35px;
+  height: 25px;
+}
+/* .delivery-address-edit-section{
+  width: 35px;
+  height: 25px;
+} */
+@media screen and (max-width: 600px) {
+  .delivery-address-cross-btn {
+    width: 25px;
+    /* height: 25px; */
+  }
+  .delivery-address-edit-section-img {
+    width: 15px;
+    /* height: 15px; */
+  }
+  .delivery-addresssess-main {
+    margin: 0;
+    padding: 20px 10px 60px;
+  }
+  .time-slot-btn {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 16px 19px;
+     padding: 16px 19px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+  }
+  .delivery-addressess-right-div {
+    border: 0.5px solid #f8d40c;
+    border-radius: 10px;
+    height: 48pt;
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /* position: relative;
+    right: 20px; */
+  }
+  .delivery-addressess-right-div-mobile {
+    border: 0.5px solid #f8d40c;
+    border-radius: 10px;
+    height: 48pt;
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 20px;
+  }
+  .delivery-address-pera-div {
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  }
+  .delivery-addressess-right-content {
+    width: 75%;
+    height: 100%;
+  }
+  .cat-heading-container {
+    margin: 0;
+    position: relative;
+  }
+  .delivery-addressess-heading-bottom-div {
+    width: 100px;
+    position: relative;
+    top: 25px;
+  }
+  .back-arrow-icon {
+    display: block;
+    position: absolute;
+    left: 0px;
+  }
+  .delivery-addressess-edit-main-div {
+    display: flex;
+    justify-content: space-between;
+    /* cursor: pointer; */
+  }
+  .delivery-address-edit-section {
+    width: auto;
+  }
+  .add-delivery-address-btn {
+    font-size: 16px;
+    width: 100%;
+  }
+  .common-button {
+    width: auto;
+  }
+  .continue-common-button {
+    width: auto;
+    padding: 8px 20px;
+  }
+}

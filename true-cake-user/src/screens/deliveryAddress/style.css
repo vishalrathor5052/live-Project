@@ -1,0 +1,142 @@
+.delivery-container {
+  margin-top: -13%;
+  padding: 50px 0px;
+}
+/* .heading-category {
+  margin-left: 57px;
+} */
+.cart-delivery-container {
+  width: 100%;
+  padding: 22px;
+  padding-top: 80px;
+}
+.circular-cat-main {
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: auto;
+}
+.circular-cat-main::-webkit-scrollbar {
+  display: none;
+}
+.inputbox-main-div {
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+}
+.input-lable {
+  font-size: 25px;
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+  color: var(--Darkgrey);
+}
+.inputbox-txt {
+  border: 1px solid #f8d40c;
+  border-radius: 5px;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.label-div {
+  margin-top: 20px;
+}
+.form-control {
+  border: none;
+}
+.inputbox-txt:focus {
+  outline: none;
+  box-shadow: none;
+}
+.delivery-dropdown {
+  background-color: var(--white);
+  border: 1px solid #f8d40c;
+  color: var(--Darkgrey);
+}
+.delivery-dropdown-main {
+  margin-right: 10%;
+}
+.delivery-dropdown:hover {
+  border: 1px solid #f8d40c !important;
+  background-color: var(--white) !important;
+  color: var(--Darkgrey) !important;
+}
+.time-slot-btn {
+  margin-top: 40px;
+}
+.delivery-address-foam {
+  color: red !important;
+}
+.delivery-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.delivery-address-bottom-div {
+  border-bottom: 3px solid var(--Black);
+  width: 160px;
+  margin-left: 98px;
+  position: relative;
+  top: 35px;
+}
+.back-arrow-icon {
+  display: none;
+}
+.add-delivery-address-btn,
+.continue-common-button {
+  padding: 8px 30px;
+  background: var(--Yellow) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", "Medium";
+  box-shadow: 2px 2px var(--Black);
+  margin-bottom: 20px;
+  /* margin-left: 10px; */
+}
+
+.use-current-location-address {
+  display: flex;
+  align-items: center;
+}
+
+.gps-img {
+  height: 17px;
+  width: 17px;
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .delivery-container {
+    padding: 0px;
+  }
+  .inputbox-main-div {
+    width: 100%;
+  }
+  .back-arrow-icon {
+    display: block;
+    position: absolute;
+    left: 0px;
+  }
+  .cart-delivery-container {
+    width: 100%;
+    padding: 22px 10px;
+    overflow-x: hidden;
+  }
+  .common-button {
+    width: 100%;
+  }
+  .add-delivery-address-btn {
+    font-size: 16px;
+    width: 100%;
+  }
+  .delivery-address-bottom-div {
+    top: 25px;
+  }
+  .cat-heading-container {
+    margin-bottom: 0% !important;
+    position: relative;
+  }
+}

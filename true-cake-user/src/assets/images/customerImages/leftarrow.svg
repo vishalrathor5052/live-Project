@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="left_arrow_with_grey_bg" data-name="left arrow with grey bg" transform="translate(-50 -1666)">
+    <path id="Path_26083" data-name="Path 26083" d="M25,0A25,25,0,1,1,0,25,25,25,0,0,1,25,0Z" transform="translate(50 1666)" fill="#d2d3d4"/>
+    <g id="Iconly_Broken_Arrow---Left-3" data-name="Iconly/Broken/Arrow---Left-3" transform="translate(63 1679.5)">
+      <g id="Arrow---Left-3" transform="translate(2.5 6)">
+        <path id="Path_27094" data-name="Path 27094" d="M14.283,5.762H10.217V-2.266A.726.726,0,0,0,9.5-3a.726.726,0,0,0-.717.734V5.762H4.717a.714.714,0,0,0-.628.38.748.748,0,0,0,.021.745l4.783,7.77a.708.708,0,0,0,1.215,0l2.975-4.835a.744.744,0,0,0-.224-1.012.709.709,0,0,0-.99.231L9.5,12.887,6.016,7.23h8.267a.734.734,0,0,0,0-1.468" transform="translate(15.5 -3.5) rotate(90)" fill="#313131"/>
+      </g>
+    </g>
+  </g>
+</svg>

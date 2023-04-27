@@ -1,0 +1,332 @@
+.landing-main {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  position: relative;
+}
+.showCategoryClass {
+  position: fixed;
+  background-color: #313131;
+  max-height: 250px;
+  overflow-y: auto;
+  padding: 10px 20px;
+  width: 95vw;
+  bottom: 75px;
+  left: 10px;
+  border-radius: 10px;
+  z-index: 1;
+  display: none;
+}
+/* .showCategoryClass::-webkit-scrollbar {
+  display: none;
+} */
+.circle-image-slide {
+  width: 100%;
+  position: absolute;
+  overflow-x: auto;
+  z-index: 1;
+  padding-left: 15px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0% !important;
+}
+.circle-image-slide::-webkit-scrollbar {
+  display: none;
+}
+.catalog-btn {
+  height: 100px;
+  width: 100%;
+  background-color: blue;
+  top: 118px;
+  z-index: 1;
+  padding-left: 50px;
+  display: flex;
+}
+.main-screen {
+  width: 100%;
+  display: flex;
+}
+.circular-img {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 66px;
+}
+.slider-section {
+  width: 67%;
+  z-index: 0;
+}
+.slider-section .carousel {
+  z-index: -1;
+}
+.circle-img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/images/Main-slider/circular.png);
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: var(--White) !important;
+  opacity: 1 !important;
+}
+
+.carousel-indicators .active {
+  background-color: var(--Yellow) !important;
+}
+.text-div {
+  margin-left: 22px;
+  position: relative;
+  /* left: 90px; */
+  align-items: center;
+  z-index: 2;
+  width: 800px;
+  top: -21px;
+  left: 100px;
+}
+.brings {
+  margin-top: 91px;
+  font-size: 30px;
+  color: var(--Yellow);
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+}
+.theres {
+  margin-top: 15px;
+  color: var(--White);
+  font-size: 42px;
+  font-family: "Oswald", "Bold";
+  font-weight: bold;
+  width: 636px;
+  letter-spacing: 1.35px;
+  line-height: 45px;
+}
+.mobile-circular-main {
+  display: none !important;
+}
+.categories-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-section {
+  padding-top: 50px;
+}
+.circle_category_text_yellow {
+  color: var(--Yellow);
+}
+.circle_category_text_black {
+  color: var(--Black);
+}
+.landing-mobile-container {
+  display: none;
+}
+.slider-container-div {
+  margin-top: 25px;
+}
+/* catgrory css */
+.category-div-mobile {
+  width: max-content;
+  overflow-x: auto;
+  padding: 20px 0px;
+}
+.cat-button {
+  background-color: var(--Gold);
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  padding: 8px 10px;
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+}
+.slick-arrowm,
+.menu-pagination {
+  display: none !important;
+}
+
+/* mobile view css */
+@media screen and (max-width: 600px) {
+  .showCategoryClass {
+    display: block;
+  }
+  .main-screen {
+    display: none;
+  }
+  .customer-review-container {
+    display: none;
+  }
+  .category-containers {
+    display: none;
+  }
+  .screenimage-main-div {
+    display: none !important;
+  }
+  .landing-mobile-container {
+    display: block;
+    padding: 0px 10px;
+    /* height: 100vh; */
+    overflow: auto;
+    height: 100%;
+    padding-bottom: 64px;
+    overflow-x: hidden;
+  }
+  .brings {
+    margin-top: 0px;
+    font-size: 18px;
+  }
+  .theres {
+    color: var(--Black);
+    font-size: 27px;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .heading-div-mobile {
+    width: 100%;
+  }
+  .offer_collection {
+    display: none !important;
+  }
+  .offer_veg {
+    display: none !important;
+  }
+  .card_image_div {
+    width: 100%;
+    height: 100%;
+  }
+  .card_image {
+    width: 100%;
+  }
+  .cake_card {
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+  }
+  .categories {
+    width: 100%;
+  }
+  .main_categories {
+    width: 100%;
+  }
+  .cakelogo_and_heading {
+    margin-top: 40px;
+  }
+  .heading-category {
+    font-size: 16pt !important;
+    margin-left: 0px !important;
+  }
+  .menu-landing-heading-bottom-div {
+    width: 60pt !important;
+    margin-left: 75px !important;
+    margin-top: 27px;
+    border-bottom: 2px solid var(--Black);
+  }
+  .cake-logo {
+    width: 25pt;
+    height: 17px;
+    top: 5px;
+    right: -19px;
+  }
+  .catalog-container {
+    display: none;
+  }
+
+  .customer-review-main {
+    display: none !important;
+  }
+  .review-card {
+    display: none;
+  }
+  .mobile-catagory-div-container {
+    margin-top: 29px;
+    margin-bottom: 29px;
+  }
+  .mobile-catagory-name {
+    font-size: 18pt;
+    font-family: "Oswald", "Regular";
+    font-weight: 400;
+    color: var(--Black);
+  }
+  .card-img-mobile {
+    border-radius: 10px;
+  }
+  .mobile-card-content-text {
+    font-size: 18pt;
+    font-family: "Oswald", "Bold";
+    font-weight: bold;
+    color: var(--Black);
+  }
+  .mobile-card-bottom-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobile-card-content {
+    margin-top: 17px;
+  }
+  .mobile-card-bottom-content {
+    margin-top: 10px;
+  }
+  .mobile-card-left-content {
+    display: flex;
+    align-items: center;
+  }
+  .mobile-card-amount-txt {
+    font-size: 16pt;
+    font-family: "Oswald", "Bold";
+    font-weight: bold;
+    color: var(--Black);
+  }
+  .mobile-card-main {
+    margin-top: 29px;
+  }
+  .mobile-more-than-just-div {
+    margin: 20px -15px 20px -15px;
+  }
+  .green-icon {
+    width: 20px;
+    height: 20px;
+  }
+  /* .landing-offer-mai { */
+  .web_landing {
+    display: none !important;
+  }
+  .MuiToolbar-root-MuiTablePagination-toolbar {
+    display: none !important;
+  }
+  .mobile-circular-main {
+    width: 100%;
+    overflow: auto;
+    display: flex !important  ;
+  }
+  .circle-main-div {
+    margin-top: 5px;
+  }
+  .slider-section {
+    width: 100%;
+    /* z-index: 0; */
+  }
+  .slider-section .carousel {
+    /* z-index: -1; */
+  }
+  /* .slider-container-div{
+    display: block;
+  } */
+  .category-right-div {
+    /* width: 100%; */
+    margin-top: 0px !important;
+  }
+  .menu-pagination {
+    display: block !important;
+  }
+  .mobile-main-menu-heading {
+    display: flex !important;
+    position: relative !important;
+    margin: 0px 127px !important;
+    justify-content: center !important;
+  }
+  .circle_category_text_yellow {
+    color: var(--Black);
+  }
+}

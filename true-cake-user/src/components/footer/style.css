@@ -1,0 +1,267 @@
+.Footer-main-div {
+  width: 100%;
+  background-color: var(--Darkgrey);
+  display: block;
+}
+
+/* .Footer-main-div p {
+  opacity: 0.75;
+} */
+.contacts-div {
+  display: flex;
+  padding: 60px 50px 30px;
+}
+.footer-menu-div-container {
+  margin-top: 25px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.footer-menu-div-container::-webkit-scrollbar {
+  display: none;
+}
+.logo {
+  width: 30%;
+  height: 77px;
+  /* background-color:var(--Yellow); */
+}
+
+.contact {
+  width: 80%;
+  /* height: 100px; */
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-div {
+  /* height: 51px; */
+  /* width: 20%; */
+  display: flex;
+}
+
+.gst-div {
+  /* height: 100px;
+    width: 20%; */
+  display: flex;
+}
+
+.location-img {
+  height: 40px;
+  width: 40px;
+}
+
+.location-text {
+  /* position: relative;
+  top: -45px; */
+  color: var(--White);
+  left: 55px;
+  font-size: 18px;
+  display: flex;
+  margin-left: 25px;
+}
+
+.contact-no {
+  /* position: relative;
+    top: -40px;
+    left: 55px; */
+  color: var(--White);
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--White);
+  /* margin: 30px 0; */
+  opacity: 0.5;
+}
+
+/* start footer second div */
+.menu-main-div {
+  display: flex;
+  /* background-color: blueviolet; */
+  width: 100%;
+  /* height: 200px; */
+  /* margin-top: 100px; */
+  padding: 50px;
+  padding-top: 30px;
+}
+
+.text {
+  /* height: 500px; */
+  width: 35%;
+  /* background-color: aquamarine; */
+}
+
+.menu {
+  /* height: 500px; */
+  width: 65%;
+  /* background-color: antiquewhite; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-subdiv {
+  width: 50%;
+  text-align: left;
+  /* height: 500px;
+    width: 500px; */
+  /* background-color: green; */
+}
+
+.information-subdiv {
+  width: 50%;
+  text-align: left;
+  /* height: 500px;
+    width: 500px; */
+  /* background-color:gray; */
+}
+.information-menu-div {
+  margin-top: 25px;
+}
+.bring {
+  font-size: 55px;
+  /* margin-left: 50px; */
+  color: var(--White);
+}
+
+.cakesss {
+  font-size: 55px;
+  /* margin-left: 50px; */
+  color: var(--Yellow);
+}
+
+.MENU {
+  font-size: 25px;
+  color: var(--White);
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+  margin-bottom: 15px;
+  /* margin-top: 12px; */
+  /* margin-left: 28px; */
+}
+
+.list-div {
+  margin-left: 0px;
+}
+
+ul {
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 0px;
+  font-size: 22px;
+  color: var(--White);
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+}
+
+.text p {
+  margin: 0px;
+  padding: 0px;
+  line-height: normal;
+}
+
+.powered-by {
+  background-color: var(--White);
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.powered-by p {
+  font-size: 25px;
+  color: var(--Darkgrey);
+  font-weight: 400;
+}
+
+.powered-by span {
+  font-weight: bold;
+}
+
+/* .Footer-main-div {
+  display: none;
+} */
+.locations-div {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .Footer-main-div {
+    display: none;
+  }
+
+  .powered-by {
+    /* background-color: var(--White); */
+    padding: 0px;
+    /* text-align: center; */
+  }
+
+  .powered-by p {
+    font-size: 12px;
+  }
+
+  ul li {
+    font-size: 18px;
+  }
+
+  .location-img {
+    width: 24.05px;
+    height: 28.29px;
+  }
+
+  .location-text {
+    font-size: 14px;
+  }
+
+  .contact-no {
+    font-size: 14px;
+  }
+
+  .locations-div {
+    margin-top: 40px;
+    align-items: center;
+  }
+
+  .contact-div {
+    margin-top: 40px;
+    align-items: center;
+  }
+
+  .gst-div {
+    margin-top: 40px;
+    align-items: center;
+  }
+
+  .bring {
+    font-size: 41px;
+  }
+
+  .cakesss {
+    font-size: 41px;
+  }
+}
+
+/* For hover on list item infolist */
+
+/* .infolist:hover {
+  cursor: pointer;
+} */
+
+/* $scrollLength :100vh; */
+
+.text p {
+  opacity: 0.75;
+}
+.menu-list:hover {
+  /* cursor: pointer; */
+  /* scroll-behavior:top; */
+  /* $scrollToRevealDistance: 12rem; */
+  /* position: absolute; */
+  /* top: scroll; */
+  /* scroll-behavior:auto;*/
+  position: sticky;
+  scroll-behavior: smooth;
+}

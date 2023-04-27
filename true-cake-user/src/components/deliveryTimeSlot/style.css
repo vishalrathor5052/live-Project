@@ -1,0 +1,188 @@
+.delivery-time-slot-container {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #f8d40c;
+  border-radius: 10px;
+  opacity: 1;
+  width: 70%;
+}
+.time-slot-text {
+  font: normal normal normal 20px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #313131;
+  opacity: 1;
+  padding-top: 13px;
+  /* padding-right: 33px; */
+  padding-left: 33px;
+  padding-right: 33px;
+}
+.delivery-time-data {
+  width: 33%;
+  /* justify-content: space-evenly; */
+  margin-top: 20px;
+}
+.delivery-time-div {
+  width: 100%;
+}
+.delivery-time-title {
+  font-size: 35px;
+  text-align: center;
+  color: var(--Black);
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+}
+.date-set-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.date-set-div {
+  font-size: 25px;
+  font-family: "Source Sans Pro", "Bold";
+  font-weight: bold;
+  color: var(--Black);
+}
+.change-date-div {
+  font-size: 25px;
+  font-family: "Oswald", "SemiBold";
+  color: var(--Yellow);
+  font-weight: 600;
+  text-decoration: underline;
+}
+.change-date-div:hover {
+  cursor: pointer;
+}
+.delivery-slot-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.choose-deliver-slot {
+  display: flex;
+  align-items: center;
+}
+.dt-free {
+  font-size: 30px;
+  font-family: "Oswald", "SemiBold";
+  font-weight: 500;
+  color: var(--Yellow);
+}
+.radiobtn {
+  width: 29px;
+  height: 29px;
+}
+.choose-delivery-slot-text {
+  /* margin-left: 15px; */
+  font-size: 22px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+}
+.time-slot-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.time-select-div {
+  cursor: pointer;
+  border: 1px solid var(--Yellow);
+  padding: 13px;
+  border-radius: 10px;
+  width: 30%;
+  margin-top: 20px;
+  text-align: center;
+  margin-right: 3.3%;
+}
+.time-select-div button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+}
+.time-disabled-button-div{
+  opacity: 0.5;
+}
+/* New class created for selected div functionality */
+.time-select-new-div {
+  border: 1px solid var(--White);
+  padding: 13px;
+  border-radius: 10px;
+  width: 30%;
+  margin-top: 20px;
+  text-align: center;
+  margin-right: 3.3%;
+  background-color: #f8d40c;
+}
+.time-select-new-button {
+  background-color: var(--Yellow);
+  border: none;
+  font-size: 19px;
+}
+.time-select-button {
+  background-color: var(--Yellow);
+  border: none;
+  font-size: 18px;
+}
+.error-div {
+  display: flex;
+  justify-content: center;
+}
+.error-text {
+  color: red;
+}
+.continue-btn-delivery-time {
+  justify-content: center;
+}
+.delivery-time-continue-btn{
+  padding: 8px 30px;
+  background: var(--Yellow) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", "Medium";  
+  box-shadow: 2px 2px var(--Black);
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+.date-set-div, .change-date-div {
+  font-size: 20px;
+}
+.delivery-time-title{
+  font-size: 25px;
+}
+.date-set-container{
+ margin-top: 20px;
+}
+.modal-content{
+   width: 97%;
+   padding-left: 25px;
+   padding-right: 25px;
+}
+.time-select-div {
+  /* cursor: pointer; */
+  /* border: 1px solid var(--Yellow); */
+  padding: 0 5px;
+  /* border-radius: 10px; */
+  /* width: 30%; */
+  /* margin-top: 20px; */
+  /* text-align: center; */
+  /* margin-right: 3.3%; */
+}
+/* .time-select-div {
+  padding: 0 5px;
+} */
+.time-select-div button, .time-select-new-button  {
+  /* padding: 0 5px; */
+  font-size: 12px;
+}
+.time-select-new-div {
+  padding: 0 5px;
+}
+
+.time-slot-container {
+margin-top: 10px;
+}
+
+}

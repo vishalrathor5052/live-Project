@@ -1,0 +1,90 @@
+.line-horizontal {
+  background-color:#b8aa44;
+  height: 15px;
+}
+
+.Addon-main {
+  padding: 55px 50px;
+}
+
+.addons-bottom-div {
+  margin-top: 8px;
+  border-bottom: 3px solid var(--Black);
+  width: 191px;
+  margin-left: 35px;
+  position: relative;
+  top: 39px;
+}
+
+.main-addon-candle {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-addon-candle-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quantity-counter {
+  height: 30px;
+}
+
+.add-on-btn {
+  background-color: var(--Yellow);
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: var(--Yellow);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.addon-knife-candle-text {
+  font-size: 25px;
+  color: var(--Darkgrey);
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+}
+
+.addon-price-text {
+  font-size: 25px;
+  color: #313131;
+  opacity: 1;
+  position: relative;
+  top: -5px;
+}
+
+.candle-img {
+  height: 92px;
+  width: 92px;
+  background-color: #fdf2b7;
+}
+
+@media screen and (max-width: 600px) {
+.Addon-main {
+  padding: 55px 20px;
+}
+.addons-bottom-div {
+  margin-top: 0px;
+  border-bottom: 3px solid var(--Black);
+  width: 83px;
+  margin-left: 67px;
+  position: relative;
+  top: 24px;
+  margin-bottom: 20px;
+}
+
+.Addon-main {
+  padding: 20px 20px;
+}
+
+.line-horizontal {
+margin-bottom: 30px;
+}
+
+}

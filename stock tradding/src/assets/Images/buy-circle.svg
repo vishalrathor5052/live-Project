@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="buy_circle" data-name="buy circle" transform="translate(-75 -281)">
+    <path id="Path_2873" data-name="Path 2873" d="M22,0A22,22,0,1,1,0,22,22,22,0,0,1,22,0Z" transform="translate(75 281)" fill="#7522de"/>
+    <g id="Iconly_Two-tone_Arrow---Down" data-name="Iconly/Two-tone/Arrow---Down" transform="translate(84.751 291.25)">
+      <g id="Arrow---Down" transform="translate(5.5 4)">
+        <line id="Stroke-1" y1="15" transform="translate(6.774 0.75)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+        <path id="Stroke-3" d="M12.8,9.7,6.775,15.75.75,9.7" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

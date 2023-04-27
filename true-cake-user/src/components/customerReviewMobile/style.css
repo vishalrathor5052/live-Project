@@ -1,0 +1,46 @@
+.customer-reviews-card-mobile-div{
+    width: 100%;
+    background-color: var(--Black);
+    padding: 60px 15px 35px 15px;
+    border-radius: 10px;
+    margin-top:80px;
+    position: relative;
+}
+.customer-review-mobile-top{
+    display: flex;
+    align-items: center;
+}
+.customer-review-mobile-div{
+   padding: 45px 0px 45px 0px;
+}
+.customer-review-heading-mobile{
+    font-size: 16pt;
+    font-family: "Source Sans Pro", "Regular";
+    color: var(--White);
+    font-weight: 400;
+}
+.customer-review-pera-mobile{
+    color: var(--White);
+    font-size: 15pt;
+    font-family: "Source Sans Pro", "Regular";
+    font-weight: 400;
+    text-align: justify;
+}
+.customer-review-main-container-mobile{
+    margin-top: 17px;
+}
+.customer-review-profile-img-mobile{
+    position: absolute;
+    top: -40px;
+}
+.customer-review-profile-image{
+    width: 60pt;
+    height: 60pt;
+}
+@media screen and (max-width: 600px) {
+    .arrow-image{
+        width: 18pt;
+        height: 14pt;
+        margin-left: 0px;
+    }
+}

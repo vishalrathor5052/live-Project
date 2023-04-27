@@ -1,0 +1,260 @@
+.landing-offer-mai {
+  width: 100%;
+  display: flex;
+  /* padding: 102px 50px 67px 50px; */
+  padding: 50px 50px 67px 50px;
+
+  position: relative;
+  max-height: 700px;
+  overflow-y: auto;
+}
+
+.category-left-div {
+  width: 25%;
+
+  position: sticky;
+  top: 70px;
+}
+
+.category-right-div {
+  width: 75%;
+  margin-top: 70px;
+  /* max-height: 700px;
+  overflow-y: auto; */
+  /* margin-top: 100px; */
+}
+.category-right-div > div {
+  /* margin-top: 100px !important; */
+}
+
+.cat-heading-landing {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.landing-menu-section {
+  width: 100%;
+  margin-top: 80px;
+  max-height: 650px;
+  overflow-y: auto;
+}
+.landing-menu-section::-webkit-scrollbar {
+  display: none;
+}
+
+.category-containers {
+  width: 100%;
+  padding: 67px 50px;
+}
+
+.category-main-div {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.cat-btn a:hover {
+  background-color: var(--Yellow);
+}
+
+.landing-category-heading {
+  width: 25%;
+}
+
+.landing-category-button {
+  display: flex;
+}
+
+.offer-main {
+  width: 100%;
+  display: flex;
+  padding-top: 30px;
+}
+
+.landing-card-section {
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+
+.card-landing-page {
+  margin-bottom: 50px;
+  width: 30%;
+  margin-right: 3.3%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.offer-container {
+  padding: 50px 50px;
+}
+
+.offer-card-main {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  margin-top: 45px;
+  flex-wrap: wrap;
+}
+
+.offer-card {
+  /* background-image: url(../../assets/images/offerscreen/offerCardImage.png); */
+  width: 31%;
+  border-radius: 10px;
+  height: 268px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.offer-dreamy-title {
+  font-size: 25px;
+  color: var(--White);
+  opacity: 1;
+}
+
+.offer-persentage {
+  display: flex;
+  color: var(--Yellow);
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.offer-amount {
+  color: var(--Yellow);
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* select button class */
+.cat-btn-hover {
+  background-color: var(--Yellow);
+  border-radius: 10px;
+  border: none;
+  padding: 12px;
+}
+
+.cat-btn-hover1 {
+  background-color: var(--Gold);
+  border-radius: 10px;
+  border: none;
+  padding: 12px;
+}
+
+.main-menu-div {
+  /* width: 30%; */
+  /* padding-left: 50px; */
+  /* height: 30%; */
+  /* background-color: blue; */
+}
+
+.menu-texts {
+  font-size: 35px;
+  font-family: "Source Sans Pro", "Semibold";
+  font-weight: 600;
+  color: var(--Black);
+}
+
+.list-div li {
+  list-style: none;
+  font-size: 25px;
+  color: var(--Black);
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.list-div .select {
+  color: var(--Yellow);
+  text-decoration: underline;
+}
+
+/* Selected Menu colors */
+
+.default-color {
+  background-color: white;
+}
+
+.selected-color {
+  background-color: var(--Yellow);
+}
+
+.menu-bottom-div {
+  border-bottom: 3px solid var(--Black);
+  width: 191px;
+  margin-left: 40px;
+  position: relative;
+  top: 39px;
+}
+
+.menu-heading-bottom-div {
+  border-bottom: 3px solid var(--Black);
+  width: 191px;
+  margin-left: 40px;
+  position: relative;
+  top: 22px;
+}
+.search-image {
+  width: 70%;
+  height: 70%;
+}
+.landing-pagination {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .category-left-div {
+    display: none;
+  }
+  .category-right-div {
+    width: 100% !important;
+  }
+  .cat-heading-landing {
+    text-align: center;
+  }
+  .landing-card-section {
+    width: 100% !important;
+    /* height: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+  }
+  .card-landing-page {
+    margin-bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .slider-container-div {
+    display: block;
+  }
+  .landing-pagination {
+    display: none;
+  }
+  .search-image {
+    width: 100%;
+    height: auto;
+  }
+  .menu-pagination {
+    display: block;
+  }
+  .card-landing-page {
+    /* margin-bottom: 50px; */
+    width: 100%;
+    /* margin-right: 3.3%; */
+    /* display: flex; */
+    /* justify-content: center; */
+  }
+}

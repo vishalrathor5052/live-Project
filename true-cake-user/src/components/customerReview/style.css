@@ -1,0 +1,56 @@
+.customer-review-container {
+  width: 100%;
+}
+.customer-review-main {
+  width: 100%;
+  /* display: flex; */
+  padding: 74px 0px;
+}
+.customer-heading {
+  width: 100%;
+  justify-content: space-between;
+  padding: 0px 50px;
+  /* height: 100px; */
+  display: flex;
+  /* background-color: blue; */
+}
+.right-arrow {
+  width: 50%;
+  /* height: 100px; */
+  /* background-color: blueviolet; */
+  text-align: end;
+}
+.arrow-image {
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+}
+.card-slider {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+  margin-top: 110px;
+}
+.review-card {
+  width: 49%;
+  /* position: relative;
+  right: 20px; */
+}
+.customer-reviews-heading-bottom-div {
+  border-bottom: 3px solid var(--Black);
+  width: 191px;
+  margin-left: 60%;
+  position: relative;
+  top: 39px;
+}
+
+@media screen and (max-width: 600px) {
+  .customer-reviews-heading-bottom-div {
+    border-bottom: 3px solid var(--Black);
+    width: 191px;
+    margin-left: 14%;
+    margin-bottom: 30px;
+    margin-top: -4%;
+  }
+}

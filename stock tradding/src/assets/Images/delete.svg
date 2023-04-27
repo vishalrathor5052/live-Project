@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6080" data-name="Rectangle 6080" width="22" height="22" transform="translate(-11295 -22627)" fill="#7522de" stroke="#7522de" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="delete" transform="translate(11295 22627)" clip-path="url(#clip-path)">
+    <g id="Iconly_Two-tone_Close-Square" data-name="Iconly/Two-tone/Close-Square" transform="translate(-11296.911 -22628.91)">
+      <g id="Close-Square" transform="translate(2.75 2.75)">
+        <path id="Combined-Shape" d="M12.883,7.6,7.6,12.874m5.281,0L7.6,7.593" transform="translate(-0.054 -0.055)" fill="none" stroke="#7522de" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd" opacity="0.4"/>
+        <path id="Stroke-3" d="M15.715.75H6.165C2.837.75.75,3.107.75,6.441v9c0,3.335,2.077,5.691,5.415,5.691h9.549c3.339,0,5.417-2.356,5.417-5.691v-9C21.131,3.107,19.053.75,15.715.75Z" transform="translate(-0.75 -0.75)" fill="none" stroke="#7522de" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

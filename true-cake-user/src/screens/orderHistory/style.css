@@ -1,0 +1,221 @@
+p {
+  margin: 0px;
+  padding: 0px;
+}
+.orderHistory-container {
+  width: 100%;
+}
+.circular-cat-main {
+  display: flex;
+  overflow-x: auto;
+}
+.circular-cat-main::-webkit-scrollbar {
+  display: none;
+}
+.orderHistory-main {
+  width: 100%;
+  padding: 50px 50px;
+}
+.orderHistory-card-div {
+  padding: 30px 0;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.orderHistory-heading {
+  font-size: 25px;
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+  color: var(--Darkgrey);
+}
+.orderHistory-para {
+  font-size: 22px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--gray);
+  margin-top: 0px;
+}
+.cakeImage {
+  width: 224px;
+  height: 232px;
+  border-radius: 10px;
+}
+.orderHistory-left-div {
+  width: 65%;
+  display: flex;
+}
+.orderHistory-delivery-date {
+  font-size: 25px;
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+  color: var(--Darkgrey);
+}
+.orderhistory-left-content {
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.orderHistory-price {
+  font-size: 35px;
+  font-family: "Oswald", "bold";
+  font-weight: bold;
+  text-align: end;
+  color: var(--Green);
+}
+.orderHistory-btn {
+  margin-top: 40px;
+}
+.mobile-order-history-container {
+  display: none;
+}
+.order-history-bottom-div {
+  border-bottom: 3px solid var(--Black);
+  width: 191px;
+  margin-left: 130px;
+  position: relative;
+  top: 39px;
+}
+/* .common-button{
+  width: 147px;
+  height: 42px;
+} */
+.mobile-orderHistory-card-div {
+  display: none;
+}
+.search-image {
+  width: 50%;
+}
+.mobile-cat-container {
+  display: none;
+}
+.orderHistory-reorder-btn {
+  padding: 8px 30px;
+  background: var(--Yellow) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Oswald", "Medium";
+  box-shadow: 2px 2px var(--Black);
+  margin-bottom: 8px;
+  width: 80px;
+  height: 30px;
+}
+@media screen and (max-width: 600px) {
+  .orderHistory-main {
+    display: none;
+  }
+  .mobile-cat-container {
+    display: block;
+    margin-bottom: 100px;
+  }
+  .mobile-orderHistory-card-div {
+    display: block;
+    margin-top: 13px;
+  }
+  .orderHistory-left-div {
+    padding: 10px;
+  }
+  .mobile-order-history-container {
+    display: block;
+  }
+  .mobile-orderhistory-main {
+    height: 100%;
+    overflow: auto;
+  }
+  .orderHistory-main {
+    padding: 35px 0px;
+  }
+  .orderHistory-card-div {
+    padding: 0;
+    /* display: block; */
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* .orderHistory-card-div {
+    display: none;
+  } */
+  .mobile-order-history-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--Yellow);
+    padding: 25px 15px;
+  }
+  .mobile-order-history-left-div {
+    width: 30%;
+  }
+  .mobile-order-history-right-div {
+    width: 60%;
+  }
+  .cake-img-mobile {
+    width: 100%;
+  }
+  .orderHistory-heading {
+    font-size: 18px;
+  }
+  .orderHistory-price {
+    font-size: 18px;
+  }
+  .mobile-order-history-top-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .orderHistory-delivery-date {
+    font-size: 14px;
+  }
+  .orderHistory-para {
+    font-size: 14px;
+  }
+  .orderHistory-btn {
+    margin-top: 15px;
+  }
+  .btn-reorder {
+    width: 74px;
+    font-size: 12px;
+  }
+  .heading-category {
+    font-size: 18pt;
+  }
+  .cake-logo {
+    width: 16pt;
+    height: 11pt;
+    top: 6px;
+    right: -15px;
+  }
+  .order-history-bottom-div {
+    width: 100pt;
+    margin-bottom: 50px;
+    margin-top: -14px;
+    /* margin-left: 50px; */
+  }
+  .cat-heading-container {
+    margin-top: 30px;
+  }
+  .search-image {
+    width: 80%;
+    margin-top: 80px;
+  }
+  .cakeImage {
+    width: 136px;
+    height: 141px;
+    border-radius: 5px;
+  }
+  .orderhistory-left-content {
+    margin-left: 14px;
+    margin-top: 0px;
+  }
+  /* .common-button{
+    width: 76px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  } */
+  .add-to-card-middle {
+    border: 0.5px solid var(--Yellow);
+    margin-top: 5px;
+  }
+}

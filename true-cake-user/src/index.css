@@ -1,0 +1,80 @@
+p {
+  margin: 0px;
+  padding: 0px;
+}
+h1 , h2, h3, h4, h5 , h6{
+  margin: 0px;
+  height: 0px;
+}
+/* To use colors in entire app */
+:root {
+  --Yellow: #F8D40C;
+  --White: #FFFFFF;
+  --LightBlack:#1C1B1D;
+  --Darkgrey: #313131;
+  --Lightgrey: #3E3F41;
+  --Black: #111011;
+  --Green: #1AB963;
+  --OffGreen:#2ebd59;
+  --gray:#7A7A7A;
+  --Gold: #FDF2B7;
+
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* heading css */
+
+.heading-category{
+  font-size: 35px;
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+  text-transform: uppercase;
+}
+.heading-bottom-div{
+  border-bottom: 3px solid var(--Black);
+    width: 191px;
+    margin-left: 76px;
+}
+.cake-logo {
+  width: 65px;
+  height: 43px;
+  position: absolute;
+  z-index: -1;
+  /* left: revert; */
+  right: -47px;
+}
+.cake-logo-div{
+  position: relative;
+}
+.cat-heading-div{
+  position: relative;
+}
+.cat-heading-container{
+  position: relative;
+}
+/* @media screen and (max-width: 769px) {
+  .cat-heading-container{
+    margin: 0px 150px;
+  }
+  .cake-logo{
+    width: 16pt;
+    height: 11pt;
+    right: -11px;
+    top: 8px;
+  }
+} */
+.react-calendar__navigation button{
+  /* display: none; */
+}
+
+.search-image{
+  max-width: 500px;
+  margin: auto;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}

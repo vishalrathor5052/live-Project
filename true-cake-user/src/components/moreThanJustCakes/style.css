@@ -1,0 +1,78 @@
+
+.screenimage-main-div{
+    height: 600px;
+    width: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/images/screenimage/Addoncakes.png);
+    display: flex;
+    position: relative;   
+    justify-content: space-between;
+   padding: 0px 50px;
+   z-index: -1;
+   
+}
+.heading{
+ height: 64%;
+ width: 38%; 
+ margin-top: 50px;
+}
+
+.heading-more-than-just{
+   width: 115px;
+}
+.more-then-text{
+    font-size: 25px;
+    font-family: "Source Sans Pro", "Regular";
+    font-style: 400;
+    color: var(--White);
+    margin-top: 45px;
+}
+/* .lorem-text{
+    margin-top: 20px;
+    color:#FFFFFF;
+    font: normal normal normal 31px/37px Source Sans Pro;
+} */
+.img-rounded-div{
+ height: 80%; 
+ width: 30%;
+ align-items: center;
+ /* opacity: 1;
+background: #3E3F41;
+opacity: 1; */
+/* backdrop-filter: blur(30px);
+-webkit-backdrop-filter: blur(30px); */
+}
+.yellow-line{
+    height: 20px;
+    width: 100%;
+    background-color:#F8D40C;
+    position: absolute;
+    bottom: 0px;
+}
+.men-img{
+    height: 200px;
+    width: 200px;
+    background-color:blue;
+    border-radius: 100px;
+    border: 5px solid;
+    border-color: #F8D40C;
+    position: absolute;
+    bottom: 70px;
+    left: -90px;
+}
+.man-img-circle{
+    height: 170px;
+    width: 170px;
+}
+.morethen-just-heading{
+    font-size: 35px;
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+  color: var(--White);
+}
+.morethen-heading-bottom-div{
+    border-bottom: 3px solid var(--White);
+  width: 191px;
+  margin-left: 45%;
+}

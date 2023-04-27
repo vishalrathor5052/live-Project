@@ -1,0 +1,457 @@
+/* product detail heading top css  */
+.product-detail-container {
+  width: 100%;
+  padding: 35px 50px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-detail-bottom-div {
+  border-bottom: 3px solid var(--Darkgrey);
+  width: 191px;
+  margin-left: 137px;
+  position: relative;
+  top: 39px;
+}
+
+.product-detail-heading-div {
+  width: 33%;
+}
+
+.product-discription-div {
+  margin-top: 12px;
+  font-size: 25px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Darkgrey);
+}
+
+.product-detail-right-div {
+  width: 63%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.chocolate-truffle-heading-product-deatil p {
+  font-size: 30px;
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+  color: var(--Darkgrey);
+}
+
+.cake-img-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 60px 50px;
+}
+
+.cake-img-section {
+  width: 27%;
+  text-align: center;
+}
+
+.cake-img {
+  width: 100%;
+  height: 412px;
+  margin-bottom: 30px;
+  /* margin-left: -40px; */
+  border-radius: 10px;
+}
+
+.weight-content {
+  width: 63%;
+}
+
+.container {
+  width: 100%;
+}
+
+.dash-line-background-img {
+  /* height: 800px; */
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/images/productDetail/dashline.png);
+  position: relative;
+}
+
+.Heading-main {
+  display: flex;
+  width: 100%;
+  padding: 0px 50px;
+  /* padding-left: 50px;
+    padding-right: 50px; */
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.btn-headings {
+  display: flex;
+  justify-content: space-between;
+  width: 65%;
+}
+
+.product-details-heading {
+  width: 35%;
+}
+
+.chocolate-truffle {
+  text-align: left;
+  font: normal normal normal 30px/78px Oswald;
+  letter-spacing: 0px;
+  color: #313131;
+  padding-left: 33px;
+}
+
+.circular-flex {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  justify-content: flex-start;
+  /* display: flex;
+  width: 100%; */
+  /* margin-top: 30px; */
+}
+
+.circular-flex::-webkit-scrollbar {
+  display: none;
+}
+
+.checkbox-row1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.checkbox-row2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.cake-price-main {
+  /* width: 45%; */
+  display: flex;
+  align-items: center;
+  /* line-height: 80px; */
+}
+
+.price {
+  font: normal normal bold 45px/78px Oswald;
+  color: #1ab963;
+}
+
+.inclusive-text {
+  color: #7a7a7a;
+  font-size: 25px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  padding-left: 10px;
+  opacity: 1;
+}
+
+.select-weight {
+  font: normal normal 600 25px/37px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #313131;
+  opacity: 1;
+}
+
+.weight-category {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 10px;
+  /* flex-wrap: wrap; */
+}
+
+.message-heading {
+  margin-top: 20px;
+  color: var(--Darkgrey);
+  font-size: 25px;
+  font-family: "Source Sans Pro", "Semibold";
+  font-weight: 600;
+}
+.MuiFormControlLabel-root .MuiFormControlLabel-label {
+  font-size: 20px;
+  color: var(--Darkgrey);
+  font-weight: 400;
+  font-family: "Source Sans Pro", "Regular";
+}
+
+.cake-message {
+  text-align: left;
+  font: normal normal 600 25px/37px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #313131;
+  opacity: 1;
+}
+
+.message-input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #f8d40c;
+  border-radius: 10px;
+  opacity: 1;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.message-inputs {
+  margin-top: 10px;
+}
+
+.message-input::placeholder {
+  text-align: left;
+  font: normal normal normal 20px/30px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #313131;
+  opacity: 1;
+  /* padding-left: 10px; */
+}
+
+.yellow-line {
+  width: 100%;
+  height: 5px;
+  color: var(--Yellow);
+  opacity: 1;
+}
+
+.product-discription {
+  font-size: 25px;
+  font-family: "Source Sans Pro", "Semibold";
+  font-weight: 600;
+  color: var(--Darkgrey);
+}
+
+.discription {
+  text-align: left;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: #313131;
+  font-size: 25px;
+  margin-top: 12px;
+  max-height: 136px;
+  overflow-y: auto;
+}
+.discription::-webkit-scrollbar {
+  display: none;
+}
+
+.write-msg-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.write-msg {
+  padding-left: 10px;
+}
+
+.write-msg-line {
+  color: var(--Yellow);
+  margin-top: 20px;
+}
+
+.pure-veg {
+  width: 40%;
+}
+.mobile-add-to-cart-btn{
+  display: none;
+}
+.mobile-price-main{
+  display:  none;
+}
+.checkBox-main{
+  display: flex;
+}
+.checkBox-col{
+  width: 40%;
+}
+.back-arrow-icon , .weight-category-mob , .mobile-max-char-limit{
+  display: none;
+}
+.MuiOutlinedInput-notchedOutline{
+  border-color: var(--Yellow)!important;
+}
+.profile-heading-container {
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 600px) {
+  .circular-flex {
+    display: none;
+    /* overflow-x: auto; */
+  }
+  /* .weight-category {
+flex-wrap: wrap;
+  } */
+  .dash-line-background-img{
+    background-image: none;
+  }
+  .cake-img-main {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .cake-img {
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  .Heading-main {
+    flex-wrap: wrap;
+    padding: 0px 15px;
+  }
+  .chocolate-truffle {
+    padding-left: 0px;
+  }
+  .btn-headings {
+    width: 100%;
+  }
+  .checkbox-row1 {
+    width: 100%;
+  }
+  .checkbox-row2 {
+    width: 100%;
+  }
+  .checkbox-line {
+    font-size: 14px;
+  }
+  .checkbox-div {
+    width: 20px;
+    height: 20px;
+  }
+  .product-detail-container {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  .product-detail-heading-div {
+  width: 100%;
+  position: relative;
+  }
+  .chocolate-truffle-heading-product-deatil{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .chocolate-truffle-heading-product-deatil p {
+   font-size: 20px;
+  }
+  .product-detail-right-div{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cake-price-main{
+    display: none;
+  }
+  .mobile-add-to-cart-btn{
+    display:flex;
+    justify-content: center;
+  }
+  .mobile-price-main{
+    font-size: 25px !important;
+    display: block;
+    font: normal normal bold 45px/78px Oswald;
+    color: #1ab963;
+
+    float: left;
+    margin-top: -20px;
+  }
+  .add-to-cart-btn-main{
+    display: none;
+  }
+  .product-detail-bottom-div {
+    width: 140px;
+    top: 25px;
+    margin-left: 100px;
+  } 
+  .weight-content {
+    width: 100%;
+  }
+   .message-heading{
+  margin-top: 0px;
+    display: block;
+    font-size: 18px;
+   }
+  .message-input{
+    display: block;
+    width: 100%;
+  }
+  .cake-msg-limit-main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobile-max-char-limit{
+    display: flex;
+    /* margin-left: 134px; */
+    font-size: 14px;
+    align-items: center;
+  }
+  /* .max-char-limit , .weight-category, .select-weight-lable {
+    display: none;
+  } */
+
+    .max-char-limit {
+    display: none;
+  }
+
+  .select-weight {
+    font-size: 20px;
+  }
+  .select-weight-lable{
+    margin-top: 10px;
+  }
+  .discription {
+    font-size: 16px;
+    margin-bottom: 22px;
+  }
+  .MuiFormControlLabel-root .MuiFormControlLabel-label {
+  font-size: 16px;
+  }
+  .product-discription {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .message-input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .message-inputs {
+margin-bottom: -15px;
+  }
+/* .select-weight {
+margin-top: 36px;
+} */
+.cake-img-section {
+  width: 100%;
+}
+  /* .add-to-cart-btn{
+    display: none;
+  } */
+  .back-arrow-icon {
+    display: block;
+    position: absolute;
+    left: 0px;
+  }
+  .weight-category-mob {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .profile-heading-container{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading-category{
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,14 @@
+<svg id="back" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5924" data-name="Rectangle 5924" width="30" height="30" transform="translate(600 52)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_33" data-name="Mask Group 33" transform="translate(-600 -52)" clip-path="url(#clip-path)">
+    <g id="Group_964" data-name="Group 964" transform="translate(-5.059 -5.059)">
+      <path id="Stroke-1" d="M7.594,28.578H20.986c4.665,0,7.593-3.3,7.593-7.98V7.98C28.578,3.3,25.666,0,20.986,0H7.594C2.913,0,0,3.3,0,7.98V20.6C0,25.274,2.913,28.578,7.594,28.578Z" transform="translate(634.328 57.75) rotate(90)" fill="none" stroke="#7522de" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+      <line id="Stroke-3" y1="12.624" transform="translate(626.351 72.039) rotate(90)" fill="none" stroke="#c08dff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Stroke-5" d="M11.58,0,5.79,5.815,0,0" transform="translate(619.541 66.249) rotate(90)" fill="none" stroke="#c08dff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

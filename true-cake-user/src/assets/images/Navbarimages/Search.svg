@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5802" data-name="Rectangle 5802" width="20" height="20" transform="translate(761 1303)" fill="#f8d40c" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Search" transform="translate(-761 -1303)" clip-path="url(#clip-path)">
+    <g id="Iconly_Broken_Search" data-name="Iconly/Broken/Search" transform="translate(761 1303)">
+      <g id="Search-2" data-name="Search" transform="translate(0 0)">
+        <path id="Path_27105" data-name="Path 27105" d="M19.755,18.606l-3.437-3.361h0l-.081-.123a.81.81,0,0,0-1.137,0h0a8.113,8.113,0,0,1-10.519.34A7.679,7.679,0,0,1,2.876,5.31,8.075,8.075,0,0,1,12.953,2.342a7.741,7.741,0,0,1,4.314,9.385.779.779,0,0,0,.182.772.821.821,0,0,0,.774.232.8.8,0,0,0,.593-.54h0a9.334,9.334,0,0,0-5-11.25A9.754,9.754,0,0,0,1.689,4.085a9.256,9.256,0,0,0,1.36,12.194,9.789,9.789,0,0,0,12.535.515l3.044,2.976a.819.819,0,0,0,1.137,0,.784.784,0,0,0,0-1.12h0Z" transform="translate(0 0)" fill="#f8d40c"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,122 @@
+.header-main {
+  width: 100%;
+  background-color: var(--Black);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  z-index: 11;
+  border-bottom: 2px solid var(--Darkgrey);
+  top: 0;
+}
+
+.header-logo {
+  /* margin-left: 85px; 
+     width: 170px; */
+  height: 40px;
+}
+
+.header-search {
+  width: 30%;
+  height: 40px;
+  background-color: var(--Darkgrey);
+  margin-left: 25px;
+  border-radius: 5px;
+  /* margin-right: auto; */
+}
+
+.header-search:hover {
+  cursor: pointer;
+}
+
+.header-menu {
+  width: 40%;
+  /* height: 28px; */
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+  align-items: center;
+}
+.whatsapp-icon {
+  height: 25px;
+  width: 25px;
+}
+.menu-image {
+  height: 25px;
+  width: 25px;
+}
+
+.menu-text {
+  font-size: 20px;
+  color: var(--White);
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+}
+
+.header-endlogo {
+  /* height: 90px;
+    width: 90px; */
+  background-color: var(--Yellow);
+  position: relative;
+  padding: 12px;
+}
+
+.header-endlogo-img {
+  height: 45px;
+  width: 45px;
+  /* margin-top: 22px;
+    margin-left: 22px; */
+}
+
+.text-distance {
+  margin-left: 5px;
+  color: var(--White);
+  text-transform: capitalize;
+}
+
+.location-image {
+  height: 19px;
+  width: 16.15px;
+  position: relative;
+  top: -35px;
+  left: 20px;
+}
+
+.true-cake-logo {
+  width: 100%;
+  height: 34px;
+}
+
+.header-input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: var(--Darkgrey);
+  padding-left: 45px;
+  border-radius: 10px;
+}
+
+.header-input:hover {
+  cursor: pointer;
+}
+
+.header-input::placeholder {
+  color: var(--White);
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .header-main {
+    display: none;
+  }
+}

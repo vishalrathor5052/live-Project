@@ -1,0 +1,91 @@
+.modal-delivery-time-main{
+    /* background-color: blue; */
+    width: 100%;
+    padding-top: 89px;
+    padding-left: 181px;
+    padding-right: 181px;
+
+}
+.modal-delivery-time-sub{ 
+   background-color: aliceblue;
+    width: 100%;
+    /* height: 590px; */
+    padding-top: 46px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+   
+}
+.modal-delivery-time-container{
+    /* background-color: aliceblue; */
+    /* height: 490px; */
+}
+.modal-delivery-time-heading{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.modal-delivery-text{
+    width: 55%; 
+font: normal normal normal 35px/52px Oswald;
+letter-spacing: 0px;
+color: #313131;
+text-transform: uppercase;
+opacity: 1;
+}
+.modal-date-text-main{
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+}
+.delivery-date-text{
+font: normal normal bold 25px/36px Source Sans Pro;
+letter-spacing: 0px;
+color: #313131;
+opacity: 1;
+}
+.delivery-change-date{
+text-decoration: underline;
+font: normal normal 600 25px/37px Oswald;
+letter-spacing: 0px;
+color: #F8D40C;
+opacity: 1;
+}
+.delivery-slot-main{
+    display: flex;
+    justify-content: space-between;
+}
+.choose-delivery-text{
+font: normal normal normal 25px/32px Source Sans Pro;
+letter-spacing: 0px;
+color: #313131;
+opacity: 1;
+}
+.delivery-img-text {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.img-radiobtn{
+    height: 29px;
+    width: 29px;
+}
+.delivery-text-free{
+font: normal normal 600 30px/45px Oswald;
+letter-spacing: 0px;
+color: #F8D40C;
+opacity: 1;
+}
+.time-slot-delivery{
+    display: flex;
+   width: 100%;
+    flex-wrap: wrap;  
+}
+.modal-delivery-btn{
+ margin-top: 50px;
+ text-align: center;
+ 
+
+   
+}

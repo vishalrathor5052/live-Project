@@ -1,0 +1,144 @@
+.editprofile-container {
+  padding: 80px 50px;
+}
+.circular-cat-main {
+  display: flex;
+}
+.inputbox-main-div {
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.input-lable {
+  font-size: 25px;
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+  color: var(--Darkgrey);
+}
+
+.inputbox-txt {
+  border: 1px solid #f8d40c;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.label-div {
+  margin-top: 20px;
+}
+
+.form-control {
+  border: none;
+}
+
+.inputbox-txt:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.delivery-dropdown {
+  background-color: var(--white);
+  border: 1px solid #f8d40c;
+  color: var(--Darkgrey);
+}
+
+.delivery-dropdown-main {
+  margin-right: 10%;
+}
+
+.delivery-dropdown:hover {
+  border: 1px solid #f8d40c !important;
+  background-color: var(--white) !important;
+  color: var(--Darkgrey) !important;
+}
+
+.time-slot-btn {
+  margin-top: 40px;
+}
+
+.delivery-address-foam {
+  color: red !important;
+}
+
+.delivery-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.edit-profile-bottom-div {
+  border-bottom: 3px solid var(--Black);
+  width: 191px;
+  margin-left: 102px;
+  position: relative;
+  top: 39px;
+}
+.back-arrow-icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .delivery-address-main {
+    overflow-x: hidden;
+  }
+  .delivery-container {
+    padding: 25px 15px;
+  }
+
+  .inputbox-main-div {
+    width: 100%;
+    /* margin: auto; */
+    margin-top: 50px;
+  }
+  .common-button {
+    width: 100% !important;
+  }
+  .editprofile-container {
+    padding: 35px 10px;
+  }
+  .delivery-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .edit-profile-bottom-div {
+    border-bottom: 3px solid var(--Black);
+    width: 92px;
+    margin-left: 48px;
+    position: relative;
+    top: 21px;
+  }
+  .cat-heading-container {
+    margin: auto;
+    position: relative;
+  }
+  .heading-category {
+    font-size: 18px !important;
+    font-family: "Oswald", "Regular";
+  }
+  .input-lable {
+    font-size: 18px !important;
+    font-family: "Oswald", "Regular";
+    font-weight: 400;
+  }
+  .cat-heading-div {
+    font-size: 18px !important;
+    font-family: "Oswald", "Regular";
+  }
+  .inputbox-txt {
+    height: 35px;
+  }
+
+  .time-slot-btn {
+    /* margin-top: 55px; */
+    /* margin-left: 24px; */
+  }
+  .back-arrow-icon {
+    display: block;
+    position: absolute;
+    left: 0px;
+  }
+}

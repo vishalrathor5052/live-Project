@@ -1,0 +1,17 @@
+.cross-btn-img{
+    /* background-color: var(--Yellow); */
+    /* height: 25px;
+    width: 25px; */
+    /* border-radius: 50%;   */
+}
+.cross-btn{
+    /* border: 1px solid;
+    border-color: var(--Yellow);
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    background-color: var(--White); */
+    border-style: none;
+    width: 100%;
+    background-color: var(--White);
+
+}

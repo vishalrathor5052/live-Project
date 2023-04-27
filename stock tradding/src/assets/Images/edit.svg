@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6075" data-name="Rectangle 6075" width="22" height="22" transform="translate(1171 359)" fill="#7522de" stroke="#7522de" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="edit" transform="translate(-1171 -359)" clip-path="url(#clip-path)">
+    <g id="Iconly_Two-tone_Edit" data-name="Iconly/Two-tone/Edit" transform="translate(1167.769 355.791)">
+      <g id="Edit-2" data-name="Edit" transform="translate(4.25 4.25)">
+        <line id="Stroke-1" x2="7.973" transform="translate(11.815 19.565)" fill="none" stroke="#7522de" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+        <path id="Stroke-3" d="M11.509,1.632A2.435,2.435,0,0,1,15.1,1.441L16.833,2.8a2.433,2.433,0,0,1,.67,3.527L7.139,19.554a1.852,1.852,0,0,1-1.438.71l-4,.051L.8,16.42a1.858,1.858,0,0,1,.346-1.565Z" transform="translate(-0.75 -0.75)" fill="none" stroke="#7522de" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+        <line id="Stroke-5" x2="5.994" y2="4.699" transform="translate(8.818 3.358)" fill="none" stroke="#7522de" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+      </g>
+    </g>
+  </g>
+</svg>

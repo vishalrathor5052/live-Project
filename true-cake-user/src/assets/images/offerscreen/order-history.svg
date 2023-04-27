@@ -1,0 +1,21 @@
+<svg id="Order_History" data-name="Order History" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5445" data-name="Rectangle 5445" width="30" height="30" fill="#313131" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Rectangle_5752" data-name="Rectangle 5752" fill="#f8d40c" stroke="#f8d40c" stroke-width="0.5">
+    <rect width="60" height="60" rx="10" stroke="none"/>
+    <rect x="0.25" y="0.25" width="59.5" height="59.5" rx="9.75" fill="none"/>
+  </g>
+  <g id="Mask_Group_52" data-name="Mask Group 52" transform="translate(15 15)" clip-path="url(#clip-path)">
+    <g id="Group_992" data-name="Group 992" transform="translate(3 1)">
+      <path id="Subtraction_1" data-name="Subtraction 1" d="M17.1,27.271H6.232A6.251,6.251,0,0,1,0,20.871V17.432A1.025,1.025,0,0,1,1.021,16.4a1.023,1.023,0,0,1,1.017,1.027v3.439a4.222,4.222,0,0,0,4.194,4.338H16.406A5.4,5.4,0,0,0,17.1,27.27Zm-2.431-7.633H7.321a1.028,1.028,0,0,1,0-2.057h7.345a1.028,1.028,0,0,1,0,2.057Zm8.516-.379v0a5.458,5.458,0,0,0-1.359-.17,5.939,5.939,0,0,0-.678.041V8.7L15.938,3.229V5.021a2.494,2.494,0,0,0,2.478,2.506,1.03,1.03,0,0,1,0,2.061A4.552,4.552,0,0,1,13.9,5.021V2.072H6.232A4.2,4.2,0,0,0,2.038,6.166v5.666a1.027,1.027,0,0,1-1.017,1.033A1.029,1.029,0,0,1,0,11.832V6.166A6.277,6.277,0,0,1,6.232.012h8.611a.251.251,0,0,0,.039-.006A.12.12,0,0,1,14.921,0a.085.085,0,0,1,.039.008.029.029,0,0,1,.013,0,.12.12,0,0,0,.026,0h.277a1.018,1.018,0,0,1,.739.322L22.9,7.572a1.038,1.038,0,0,1,.283.717V19.26ZM11.888,12.844H7.321a1.03,1.03,0,0,1,0-2.061h4.566a1.03,1.03,0,0,1,0,2.061Z" fill="#313131"/>
+      <g id="Iconly_Broken_Time-Circle" data-name="Iconly/Broken/Time-Circle" transform="translate(18.137 20.733)">
+        <g id="Time-Circle">
+          <path id="Path_27073" data-name="Path 27073" d="M3.269,0A3.269,3.269,0,1,1,.678,5.263a.238.238,0,0,1,.377-.29,2.794,2.794,0,1,0-.579-1.7,2.818,2.818,0,0,0,.032.425.238.238,0,0,1-.47.072A3.271,3.271,0,0,1,3.269,0ZM3.158,1.67a.238.238,0,0,1,.238.238h0V3.362l1.119.668a.238.238,0,0,1-.243.408h0L3.036,3.7a.239.239,0,0,1-.116-.2h0V1.908A.238.238,0,0,1,3.158,1.67Z" fill="#313131" stroke="#313131" stroke-width="0.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

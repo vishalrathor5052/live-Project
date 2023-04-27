@@ -1,0 +1,25 @@
+.calendar-main {
+  width: 100%;
+  align-items: center;
+}
+.react-calendar {
+  width: 100% !important;
+  border: none !important;
+}
+.react-calendar__navigation__arrow .react-calendar__navigation__prev2-button {
+  display: none !important;
+}
+.react-calendar__navigation__arrow .react-calendar__navigation__next2-button {
+  display: none;
+}
+
+.error-div {
+  display: flex;
+  justify-content: center;
+}
+.error-text {
+  color: red;
+}
+.continue-button-calander {
+  justify-content: center;
+}

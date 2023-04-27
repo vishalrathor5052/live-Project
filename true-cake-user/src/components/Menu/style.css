@@ -1,0 +1,43 @@
+.main-menu-div {
+  /* width: 30%; */
+  /* padding-left: 50px; */
+  /* height: 30%; */
+  /* background-color: blue; */
+}
+.menu-texts {
+  font-size: 35px;
+  font-family: "Source Sans Pro", "Semibold";
+  font-weight: 600;
+  color: var(--Black);
+}
+.list-div a li {
+  list-style: none;
+  font-size: 25px;
+  color: var(--Black);
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  margin-top: 10px;
+}
+/* .list-div a li:hover {
+  color: var(--Yellow);
+  text-decoration: underline;
+} */
+
+.list-div .select {
+  color: var(--Yellow);
+  text-decoration: underline;
+}
+/* Selected Menu colors */
+
+.default-color {
+  background-color: white;
+}
+
+.selected-color {
+  background-color: var(--Yellow);
+}
+
+.Add-to-card-section{
+  margin-top: 95px !important;
+}
+

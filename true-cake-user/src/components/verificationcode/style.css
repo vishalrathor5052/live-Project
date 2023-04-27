@@ -1,0 +1,201 @@
+.verification-main-container {
+  width: 100%;
+  background-color: var(--Darkgrey);
+  height: 800px;
+  padding-top: 162px;
+  padding-left: 383px;
+  padding-right: 383px;
+}
+.sign-in-modal {
+  width:100%;
+  min-width: 600px;
+  max-width: 600px;
+  margin-left: 30%;
+}
+.verification-sub-container {
+  width: 100%;
+  background-color: var(--White);
+  height: 400px;
+  padding-top: 35px;
+  padding-left: 147px;
+  padding-right: 147px;
+}
+.varification-content {
+  width: 100%;
+}
+.verification-heading {
+  text-align: left;
+  font-family: Oswald;
+  letter-spacing: 0.6px;
+  color: #313131;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 30px;
+  text-align: center;
+}
+.text-verification {
+  text-align: center;
+  font: normal normal normal 20px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #313131;
+  opacity: 1;
+  margin-top: -15px;
+}
+.verify-mobile-number {
+  text-align: center;
+  font: normal normal medium 25px/35px Ubuntu;
+  letter-spacing: 0px;
+  color: #313131;
+  opacity: 1;
+}
+.otp-verification-box {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #f8d40c;
+  border-radius: 10px;
+  opacity: 1;
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+}
+.verification-box-main {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+}
+.varification-code-btn {
+  margin-top: 10px;
+  text-align: center;
+}
+.receive-request-main {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.Didnot-receive-code {
+  text-align: center;
+  font: normal normal normal 15px/25px Ubuntu;
+  letter-spacing: 0px;
+  color: #313131;
+}
+.request-again {
+  text-align: center;
+  text-decoration: underline;
+  font: normal normal bold 15px/25px Ubuntu;
+  letter-spacing: 0px;
+  color: #f8d40c !important;
+}
+.otp-verification-box input {
+  justify-content: center;
+  width: 100%;
+  border-style: hidden;
+  height: 100%;
+  border-radius: 10px;
+}
+.verify-code-div {
+  width: 100%;
+}
+.verify-code-title {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Oswald", "Medium";
+  font-weight: 500;
+  color: var(--Black);
+}
+.verify-code-pera {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Source Sans Pro", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+  margin-top: 55px;
+}
+.phone-number-txt {
+  font-size: 25px;
+  font-family: "Ubuntu", "Medium";
+  font-weight: 500;
+  color: var(--Black);
+  text-align: center;
+}
+.input-verify-container{
+    padding-top: 26px;
+    display: flex;
+    justify-content:space-between;
+    width: 70%;
+    margin:auto;
+}
+.verify-optinput {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #f8d40c !important;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Ubuntu", "Regular";
+  font-weight: 400;
+}
+
+.verify-optinput:focus-visible{
+  outline: #f8d40c auto 1px !important;
+}
+
+.error-div{
+  display: flex;
+  justify-content: center;
+}
+
+.error-text{
+  color: red;
+}
+.verify-button{
+    justify-content: center;
+}
+.receive-code{
+  font-size: 15px;
+  font-family: "Ubuntu", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+  text-align: center;
+}
+.request-again{
+  color: var(--Yellow)!important;
+  font-family: "Ubuntu", "Bold";
+  font-weight: bold;
+}
+.verify-save-btn{
+  padding: 8px 30px;
+  background: var(--Yellow) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", "Medium";  
+  box-shadow: 2px 2px var(--Black);
+  margin-bottom: 20px;
+}
+
+
+/* in mobile */
+@media screen and (max-width: 600px) {
+.sign-in-modal {
+  min-width: 0px;
+  margin-left: 0%;
+}
+.input-verify-container {
+  /* padding-top: 26px;
+  display: flex;
+  justify-content: space-between; */
+  width: 100%;
+  /* margin: auto; */
+}
+/* .verify-save-btn{
+  padding: 8px 30px;
+  background: var(--Yellow) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", "Medium";  
+  box-shadow: 2px 2px var(--Black);
+  margin-bottom: 20px;
+} */
+}

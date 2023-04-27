@@ -1,0 +1,114 @@
+.main-circle-container {
+  display: flex;
+  /* cursor: pointer; */
+}
+
+.circle-main-div {
+  margin-top: 90px;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-left: 30px;
+}
+
+.circle-image-div {
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+
+.image-outer-border {
+  width: 100px;
+  /* height: 99px; */
+  border: 2px var(--Yellow) dashed;
+  border-radius: 50%;
+  margin-top: 7px;
+}
+
+.circle-image {
+  height: 95px;
+  width: 97px;
+  border-radius: 50%;
+  background: transparent
+    url(../../assets/images/categoryImages/cake_image2.jpg) 0% 0% no-repeat
+    padding-box;
+  outline: 9px solid black;
+  outline-offset: -9px;
+}
+
+.circle-text-div {
+  width: 102px;
+  /* height: 45px; */
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--LightBlack);
+  position: relative;
+  top: -8px;
+  /* margin-right: 4px; */
+}
+
+.circle-category-text {
+  width: 102px;
+  height: 50px;
+}
+
+@media screen and (max-width: 769px) {
+  .inputbox-main-div {
+    width: 100%;
+  }
+  .profile-container {
+    padding: 30px 15px;
+  }
+  .profile-div {
+    width: 100%;
+  }
+  .add-address-title {
+    font-size: 16px;
+  }
+  .addressImages {
+    width: 30px;
+    height: 30px;
+  }
+  .main-input-div {
+    padding: 8px 20px;
+  }
+  .rightArrow {
+    width: 11px;
+  }
+  .profile-bottom-div {
+    width: 70pt;
+  }
+  .heading-category {
+    font-size: 18pt;
+  }
+  .circular-cat-main {
+    overflow-x: auto;
+  }
+  .circle-main-div {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .circle-image {
+    width: 50px;
+    height: 50px;
+  }
+  .image-outer-border {
+    width: 54px;
+  }
+  .circle-text-div {
+    width: 100px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .image-outer-border {
+    border: 2px var(--Black) dashed;
+  }
+  .circle-image {
+    outline: 0px solid black;
+  }
+}

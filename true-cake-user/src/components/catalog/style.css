@@ -1,0 +1,30 @@
+.catalog-container{
+    width: 100%;
+    /* background-color: var(--Darkgrey); */
+    background-color: rgba(49 ,49, 49, 0.9);
+    padding-left: 100px;
+    position: relative;
+}
+.catalog-div{
+    display: flex;
+    flex-direction: column;
+    /* align-items: 79px; */
+    padding: 10px 16px;
+    /* align-items: center; */
+    width: 97px;
+    background-color: var(--Yellow);
+}
+.catalog-img {
+    height: 9px;
+    width: 55px;
+    
+}
+.catalog-text {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Ubuntu", "Bold";
+    font-weight: bold;
+    /* position: relative; */
+
+    /* top: 20px; */
+}

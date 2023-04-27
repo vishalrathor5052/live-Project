@@ -1,0 +1,93 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "vishalrathor@gmail.com",
+            "password": 123456
+        },
+        {
+            "id": 2,
+            "username": "vishalrathor123@gmail.com",
+            "password": 1234567
+        },
+        {
+            "id": 3,
+            "username": "vishalrathor",
+            "password": 12345678
+        }
+    ],
+    "dashboards": [
+        {
+            "id": 1,
+            "img": "https://t4.ftcdn.net/jpg/04/42/01/81/360_F_442018137_F4FTedsmVBxmaibxMKuNbeIms8Xkk1e4.jpg",
+            "title": "CV design",
+            "amount": 150,
+            "grow": "+2",
+            "orderprice": "₹ 23444"
+        },
+        {
+            "id": 2,
+            "img": "https://img.freepik.com/free-psd/logo-mockup_35913-2089.jpg?w=2000",
+            "title": "Tata mobile",
+            "amount": 23,
+            "grow": "+12",
+            "orderprice": "₹ 34532"
+        },
+        {
+            "id": 3,
+            "img": "https://thumbs.dreamstime.com/b/gradient-fire-phoenix-bird-simple-logo-design-black-bird-simple-logo-design-simple-gradient-fire-phoenix-bird-logo-158339374.jpg",
+            "title": "Hero",
+            "amount": 434,
+            "grow": "+8",
+            "orderprice": "₹ 5453"
+        },
+        {
+            "id": 4,
+            "img": "https://brandmark.io/logo-rank/random/pepsi.png",
+            "title": "Red Mine",
+            "amount": 4322,
+            "grow": "-0.20",
+            "orderprice": "₹ 24355"
+        },
+        {
+            "id": 5,
+            "img": "https://image.shutterstock.com/image-vector/green-leaf-logo-design-four-260nw-332230319.jpg",
+            "title": "CSK",
+            "amount": 54,
+            "grow": "-0.80",
+            "orderprice": "₹ 45345"
+        },
+        {
+            "id": 6,
+            "img": "https://www.logodesign.net/images/nature-logo.png",
+            "title": "bigBull",
+            "amount": 65,
+            "grow": "+56",
+            "orderprice": "₹ 54325"
+        },
+        {
+            "id": 7,
+            "img": "https://thumbs.dreamstime.com/b/family-tree-logo-symbol-template-family-tree-logo-symbol-template-139933132.jpg",
+            "title": "Master",
+            "amount": 12250,
+            "grow": "-52",
+            "orderprice": "₹ 5435"
+        },
+        {
+            "id": 8,
+            "img": "https://t4.ftcdn.net/jpg/04/42/01/81/360_F_442018137_F4FTedsmVBxmaibxMKuNbeIms8Xkk1e4.jpg",
+            "title": "pingpong",
+            "amount": 88,
+            "grow": "+5",
+            "orderprice": "₹ 4342"
+        },
+        {
+            "id": 9,
+            "img": "https://t4.ftcdn.net/jpg/04/42/01/81/360_F_442018137_F4FTedsmVBxmaibxMKuNbeIms8Xkk1e4.jpg",
+            "title": "Ninja",
+            "amount": 94,
+            "grow": "+1.1",
+            "orderprice": "₹ 3123"
+        }
+    ]
+}

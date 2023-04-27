@@ -1,0 +1,39 @@
+.cakelogo_and_heading {
+  display: flex;
+  position: relative;
+}
+
+.cake_heading {
+  position: relative;
+  z-index: 3;
+  font-size: 35px;
+  color: var(--Black);
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+}
+
+.cake_div {
+  margin-left: -22px;
+}
+
+.cake-logo {
+  width: 65px;
+  height: 43px;
+}
+
+.rule {
+  width: 191px;
+  height: 0px;
+  border: 1px solid var(--Black);
+  position: relative;
+  bottom: -5px;
+  left: -69px;
+  /* top: 60px; */
+}
+
+@media screen and (max-width: 600px) {
+  .cake_heading {
+    font-size: 18px;
+  }
+
+}

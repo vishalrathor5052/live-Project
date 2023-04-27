@@ -1,0 +1,33 @@
+.common-button {
+  padding: 8px 30px;
+  background: var(--Yellow) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Oswald", "Medium";  
+  box-shadow: 2px 2px var(--Black);
+  /* width: 40%;
+  height: 10%; */
+}
+
+.button-padding{
+  padding: 8px 119px;
+}
+
+.btn:hover {
+  background-color: var(--Yellow);
+}
+/* mobile view css */
+@media screen and (max-width: 600px) {
+  .common-button {
+    font-size: 17px;
+  }
+  .button-padding{
+    padding: 8px;
+    /* padding: 8px 106px; */
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+}

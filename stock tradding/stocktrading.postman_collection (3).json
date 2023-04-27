@@ -1,0 +1,1367 @@
+{
+	"variables": [],
+	"info": {
+		"name": "stocktrading",
+		"_postman_id": "303079f1-91d5-3477-552b-275037af453e",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "auth",
+			"description": "",
+			"item": [
+				{
+					"name": "GetUsers",
+					"request": {
+						"url": "http://localhost:3000/api/auth/getUsers",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "loginWithPassword",
+					"request": {
+						"url": "http://localhost:3000/api/auth/loginWithPassword",
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"description": "",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\t\r\n\t\r\n    \"mobileNo\":5551516545,\r\n    \"password\":\"123456\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "SignUp",
+					"request": {
+						"url": "http://localhost:3000/api/auth/signUp",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n    \"mobileNo\":5551516545,\r\n    \"dematAccNo\": 369854256\r\n\t\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateUser",
+					"request": {
+						"url": "http://localhost:3000/api/auth/updateUser",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \r\n    \"pancardNo\":\"111222\"  \r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "resendOtp",
+					"request": {
+						"url": "http://localhost:3000/api/auth/resendOtp",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "ChangePassword",
+					"request": {
+						"url": "http://localhost:3000/api/auth/changePassword",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"oldPassword\":\"sharma\",\r\n    \"newPassword\":\"mansi\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "ForgotPassword",
+					"request": {
+						"url": "http://localhost:3000/api/auth/forgotPassword",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "ValidateOtp",
+					"request": {
+						"url": "http://localhost:3000/api/auth/validateOtp",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"otp\":160860\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "ResetPassword",
+					"request": {
+						"url": "http://localhost:3000/api/auth/resetPassword",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\":\"mansi\",\r\n    \"confirmPassword\":\"mansi\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "loginWithOtp",
+					"request": {
+						"url": "http://localhost:3000/api/auth/loginWithOtp",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"mobileNo\":8711734292\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "loginWithValidateOtp",
+					"request": {
+						"url": "http://localhost:3000/api/auth/loginWithValidateOtp",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer JGLYKci0FlrkCAnl9MIaWr8PoGI2qXu9gXjlQEbwe5jPhTQzd9SbjneLh5SOJFHjbChjcihb3bxaPlJQhIWo4qsstFMB1rTLQHEyJhVBKQdsabAlAGVZOdq6IhLfPV4y",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"otp\":\"851041\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "companies",
+			"description": "",
+			"item": [
+				{
+					"name": "company",
+					"description": "",
+					"item": [
+						{
+							"name": "CreateCompanies",
+							"request": {
+								"url": "http://localhost:3000/api/companies/company",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\":1,\r\n\t\"open\":212,\r\n\t\"close\":210,\r\n\t\"high\":212,\r\n\t\"low\":211,\r\n\t\"generalInfo\":\"GeneralInformation about comapany\",\r\n\t\"companyName\":\"ABCD\",\r\n\t\"status\":1,\r\n    \"isDeleted\":0\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "GetComapaniesDetails",
+							"request": {
+								"url": "http://localhost:3000/api/companies/getCompanies",
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "UpadateCompaniesDetails",
+							"request": {
+								"url": "http://localhost:3000/api/companies/updateCompany",
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer 1DbYnQb5mGCndi4sYDxlOpzbrFiJtFOc4fGucV1SnICTg174y67BlIPEcbgn6Ovh7zkI9C6fQgI2mi0vxiK0M1p5TyFcgegMq6sM55AxxGrOvdGb47vgT8w2EHUmGZuR",
+										"description": ""
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\t\"id\":1,\r\n\t\"companyName\":\"INFOXERONNNN\"\r\n}  "
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteComapanies",
+							"request": {
+								"url": "http://localhost:3000/api/companies/deleteCompany",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":1\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "ComapnyFinantialInformation",
+					"description": "",
+					"item": [
+						{
+							"name": "CreateComFinancialInfo",
+							"request": {
+								"url": "http://localhost:3000/api/comapnies/financialInformation",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"companyId\":1,\r\n    \"userId\":1,\r\n    \"financialYear\":\"10/10/2022\",\r\n    \"totalRevenue\":85.00,\r\n    \"ebitda\":94.00,\r\n    \"pbit\":78.00,\r\n    \"pbt\":26.00,\r\n    \"netIncome\":26.00,\r\n    \"eps\":26.00,\r\n    \"dps\":26.00,\r\n    \"paymentRatio\":26.00,\r\n    \"status\":1,\r\n    \"isDeleted\":0\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "UpdateComFinancialInfo",
+							"request": {
+								"url": "http://localhost:3000/api/comapnies/updateFinancialInformation",
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":1,\r\n    \"financialYear\":\"2023\"\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteComFinancialInfo",
+							"request": {
+								"url": "http://localhost:3000/api/companies/deleteFinancialInformation",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":1\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "GetComFinancialInfo",
+							"request": {
+								"url": "http://localhost:3000/api/companies/getFinancialInformation",
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "orderBook",
+					"description": "",
+					"item": [
+						{
+							"name": "CreateOrderBook",
+							"request": {
+								"url": "http://localhost:3000/api/companies/orderBook",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"companyId\":1,\r\n    \"userId\":1,\r\n    \"companyName\":\"ABCD\",\r\n    \"companyISINNO\":\"INE852s0101\",\r\n    \"price\":94.00,\r\n    \"quantity\":4,\r\n    \"orderStatus\":\"pending\",\r\n    \"status\":1,\r\n    \"isDeleted\":0\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "GetOrderBook",
+							"request": {
+								"url": "http://localhost:3000/api/companies/getOrderBook",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer JHMpIX550JuJQQ2YNuUhtgtPyH9Mm0gJnulqSUHf085IpSsP96Yaq4ntQMFA8wnT6JzTF9ef1tqf7O3ruOJxGloLRgKCZkvdEqseg8ZyAm3QXcRGlkuoboFSsEsA9j4S",
+										"description": ""
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"orderStatus\":1\n\t\n\t\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "UpdateOrderBook",
+							"request": {
+								"url": "http://localhost:3000/api/companies/updateOrderBook",
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":1,\r\n    \"quantity\":5\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteOrderBook",
+							"request": {
+								"url": "http://localhost:3000/api/companies/deleteOrderBook",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":1\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "searchOrderBook",
+							"request": {
+								"url": "http://localhost:3000/api/companies/searchOrderBook",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer JHMpIX550JuJQQ2YNuUhtgtPyH9Mm0gJnulqSUHf085IpSsP96Yaq4ntQMFA8wnT6JzTF9ef1tqf7O3ruOJxGloLRgKCZkvdEqseg8ZyAm3QXcRGlkuoboFSsEsA9j4S",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"orderStatus\":\"1\"\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "fundsStatement",
+					"description": "",
+					"item": [
+						{
+							"name": "CreateFundStatment",
+							"request": {
+								"url": "http://localhost:3000/api/companies/fundsStatement",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userId\":1,\r\n    \"particular\":\"ABCD\",\r\n    \"debit\":2000000,\r\n    \"credit\":90000000,\r\n    \"netBalance\":100000000,\r\n    \"status\":true,\r\n    \"isDeleted\":0\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "updateFundStatment",
+							"request": {
+								"url": "http://localhost:3000/api/companies/updateFundsStatement",
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":1,\r\n    \"particular\":\"ABCD\"\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "GetFundStatment",
+							"request": {
+								"url": "http://localhost:3000/api/companies/getFundsStatement",
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteFundStatment",
+							"request": {
+								"url": "http://localhost:3000/api/companies/deleteFundsStatement",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":1\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "ordersReport",
+					"description": "",
+					"item": [
+						{
+							"name": "CreateOrderReport",
+							"request": {
+								"url": "http://localhost:3000/api/companies/ordersReport",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"companyNameWithISINNo\":\"ABCDINE852s0101\",\r\n    \"amount\":600000000,\r\n    \"price\":94.00,\r\n    \"quantity\":4,\r\n    \"orderStatus\":\"Executed\",\r\n    \"status\":1,\r\n    \"isDeleted\":0\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "GetOrderReport",
+							"request": {
+								"url": {
+									"raw": "http://localhost:3000/api/companies/getOrdersReport?=",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"companies",
+										"getOrdersReport"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": ""
+										}
+									],
+									"variable": []
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "UpdateOrderReport",
+							"request": {
+								"url": "http://localhost:3000/api/companies/updateOrdersReport",
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":1,\r\n     \"quantity\":5\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteOrderReport",
+							"request": {
+								"url": "http://localhost:3000/api/companies/deleteOrdersReport",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":1\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "generalInformation",
+					"description": "",
+					"item": [
+						{
+							"name": "CreateGeneralInfo",
+							"request": {
+								"url": "http://localhost:3000/api/companies/generalInformation",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\t\"title\":\"ABCD\",\r\n\t\"description\":\"This is new api\",\r\n\t\"status\":true,\r\n\t\"isDeleted\":0\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "UpdateGeneralInfo",
+							"request": {
+								"url": "http://localhost:3000/api/companies/updateGeneralInformation",
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\" : 1,\r\n    \"tite\" : \"ABCDEFG\"\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "GetGeneralInfo",
+							"request": {
+								"url": "http://localhost:3000/api/companies/getGeneralInformation",
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteGeneralInfo",
+							"request": {
+								"url": "http://localhost:3000/api/companies/deleteGeneralInformation",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":1\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "profitAndLoss",
+					"description": "",
+					"item": [
+						{
+							"name": "CreateProfitAndLoss",
+							"request": {
+								"url": "http://localhost:3000/api/companies/profitAndLoss",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\t\"companyId\":1,\r\n\t\"userId\":1,\r\n\t\"companyName\":\"infoxeron\",\r\n\t\"isinNo\":\"4154578444\",\r\n\t\"quantity\":20,\r\n\t\"buy\":100,\r\n\t\"sell\":200,\r\n\t\"realised\":\"buy\",\r\n\t\"status\":true,\r\n\t\"isDeleted\":0\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "UpdateProfitAndLoss",
+							"request": {
+								"url": "http://localhost:3000/api/companies/updateProfitAndLoss",
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":1,\r\n    \"status\":1\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "GetProfitAndLoss",
+							"request": {
+								"url": "http://localhost:3000/api/companies/getProfitAndLoss",
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteProfitAndLoss",
+							"request": {
+								"url": "http://localhost:3000/api/companies/deleteProfitAndLoss",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":1\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "buy/sell",
+					"description": "",
+					"item": [
+						{
+							"name": "buyShares",
+							"request": {
+								"url": {
+									"raw": "http://localhost:3000/api/companies/buyShares/:id",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"companies",
+										"buyShares",
+										":id"
+									],
+									"query": [],
+									"variable": [
+										{
+											"key": "id",
+											"value": ""
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "faq",
+					"description": "",
+					"item": [
+						{
+							"name": "createFaq",
+							"request": {
+								"url": "http://localhost:3000/api/companies/faq",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer WKp1aHu31GG8nDBhgBpinvfAMm9BTabmngPLw9AIBzy71M15eGypYi1df5tKEvvt9vBQm5ZERu32GZypV7zYpfQF9126ryOyc5q5h7tBEyme2lN8nO805pV0otdzLd2Z",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"question\": \"How to create account\",\n\t\"answer\": \"how to create account\"\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "getFaq",
+							"request": {
+								"url": "http://localhost:3000/api/companies/getFaq",
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer WKp1aHu31GG8nDBhgBpinvfAMm9BTabmngPLw9AIBzy71M15eGypYi1df5tKEvvt9vBQm5ZERu32GZypV7zYpfQF9126ryOyc5q5h7tBEyme2lN8nO805pV0otdzLd2Z",
+										"description": ""
+									}
+								],
+								"body": {},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "updateFaq",
+							"request": {
+								"url": "http://localhost:3000/api/companies/updateFaq",
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer WKp1aHu31GG8nDBhgBpinvfAMm9BTabmngPLw9AIBzy71M15eGypYi1df5tKEvvt9vBQm5ZERu32GZypV7zYpfQF9126ryOyc5q5h7tBEyme2lN8nO805pV0otdzLd2Z",
+										"description": ""
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"id\":\"1\",\n\t\"question\":\"how to make an account in stock trading\",\n\t\"answer\":\"you have click on this link an make account\"\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "deleteFaq",
+							"request": {
+								"url": "http://localhost:3000/api/companies/deleteFaq",
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer WKp1aHu31GG8nDBhgBpinvfAMm9BTabmngPLw9AIBzy71M15eGypYi1df5tKEvvt9vBQm5ZERu32GZypV7zYpfQF9126ryOyc5q5h7tBEyme2lN8nO805pV0otdzLd2Z",
+										"description": ""
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"id\":\"1\"\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "tickets",
+					"description": "",
+					"item": [
+						{
+							"name": "createTickets",
+							"request": {
+								"url": "http://localhost:3000/api/companies/createTickets",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer WKp1aHu31GG8nDBhgBpinvfAMm9BTabmngPLw9AIBzy71M15eGypYi1df5tKEvvt9vBQm5ZERu32GZypV7zYpfQF9126ryOyc5q5h7tBEyme2lN8nO805pV0otdzLd2Z",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"ticketStatus\":1,\n\t\"updatedBy\":1\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "getTickets",
+							"request": {
+								"url": "http://localhost:3000/api/companies/getTickets",
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer WKp1aHu31GG8nDBhgBpinvfAMm9BTabmngPLw9AIBzy71M15eGypYi1df5tKEvvt9vBQm5ZERu32GZypV7zYpfQF9126ryOyc5q5h7tBEyme2lN8nO805pV0otdzLd2Z",
+										"description": ""
+									}
+								],
+								"body": {},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "updateTickets",
+							"request": {
+								"url": "http://localhost:3000/api/companies/updateTickets",
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer WKp1aHu31GG8nDBhgBpinvfAMm9BTabmngPLw9AIBzy71M15eGypYi1df5tKEvvt9vBQm5ZERu32GZypV7zYpfQF9126ryOyc5q5h7tBEyme2lN8nO805pV0otdzLd2Z",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"id\":1,\n\t\"ticketStatus\":2,\n\t\"updatedBy\":1\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "deleteTickets",
+							"request": {
+								"url": "http://localhost:3000/api/companies/deleteTickets",
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer WKp1aHu31GG8nDBhgBpinvfAMm9BTabmngPLw9AIBzy71M15eGypYi1df5tKEvvt9vBQm5ZERu32GZypV7zYpfQF9126ryOyc5q5h7tBEyme2lN8nO805pV0otdzLd2Z",
+										"description": ""
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"description": ""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"id\":1\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				}
+			]
+		},
+		{
+			"name": "dashbord",
+			"description": "",
+			"item": [
+				{
+					"name": "yourinvestments",
+					"description": "",
+					"item": [
+						{
+							"name": "CreateYourInvestments",
+							"request": {
+								"url": "http://localhost:3000/api/dashbord/yourInvestments",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\t\"userId\":1,\r\n\t\"companyName\":\"Infoxeron\",\r\n\t\"noOfShares\":100,\r\n\t\"averageCost\":10,\r\n\t\"ltp\":12,\r\n\t\"currentValue\":150,\r\n\t\"profitAndLoss\":0,\r\n\t\"netChanges\":1,\r\n\t\"status\":true,\r\n\t\"isDeleted\":0\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "GetYourInvestments",
+							"request": {
+								"url": "http://localhost:3000/api/dashbord/getYourInvestments",
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer nJaW7o4OspUCWqkqXk68UGnbl3E42CivNlsGRL4YZr05sGk3LEyuBSK5IQgpoyUEwB4kBkZFsWxSYa2Xhzzay1tnL5okkgQ6c6vdfxC84BwCEj2dpjn3uuYRF2avX8Z9",
+										"description": ""
+									}
+								],
+								"body": {},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "UpadateYourInvestments",
+							"request": {
+								"url": "http://localhost:3000/api/dashbord/updateYourInvestments",
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":1,\r\n    \"status\":0\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						},
+						{
+							"name": "DeleteYourInvestments",
+							"request": {
+								"url": "http://localhost:3000/api/dashbord/deleteYourInvestments",
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer Ccjcb6gGNBAp1Ou6i5FsZBrqQA5ulRmxlsfpErbcD1Xhit1O7vI2mSCevDXlQPxEiUFSYJKodHBnFb3xBOiyGG1NyLWKwEWlBAxfG93Z3QbeHkdnRUdHOipu9a4RJhHh",
+										"type": "default"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"id\":1\r\n}"
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				}
+			]
+		},
+		{
+			"name": "TypeOfCharges",
+			"description": "",
+			"item": [
+				{
+					"name": "createTypeOfCharges",
+					"request": {
+						"url": "http://localhost:3000/api/charges/postTypeOfCharges",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer iYkLayfzSKim5lM4ZHjQnxLeflyTkOAfs60H3cVghFeESr4Bs1aICixjxLAg4DICv2HrkoKjUQN8pItZ1cLQQ5ePCutTn9t406qyMBAf2pHk5dl1BRdQoOoGm6AeJv4F",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\":\"Infoxeron\",\n\t\"amountType\": \"1\",\n\t\"charges\": 10,\n\t\"totalAmount\": 10,\n\t\"min\":1,\n\t\"max\":1100,\n\t\"status\":1,\n\t\"isDeleted\":0\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "updateTypeOfCharges",
+					"request": {
+						"url": "http://localhost:3000/api/charges/UpdateTypeOfCharges",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer iYkLayfzSKim5lM4ZHjQnxLeflyTkOAfs60H3cVghFeESr4Bs1aICixjxLAg4DICv2HrkoKjUQN8pItZ1cLQQ5ePCutTn9t406qyMBAf2pHk5dl1BRdQoOoGm6AeJv4F",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\t\"id\":1,\n\t\"name\":\"Kshitij Purohit\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "getTypeOfCharges",
+					"request": {
+						"url": "http://localhost:3000/api/charges/getTypeOfCharges",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer iYkLayfzSKim5lM4ZHjQnxLeflyTkOAfs60H3cVghFeESr4Bs1aICixjxLAg4DICv2HrkoKjUQN8pItZ1cLQQ5ePCutTn9t406qyMBAf2pHk5dl1BRdQoOoGm6AeJv4F",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "deleteTypeOfCharges",
+					"request": {
+						"url": "http://localhost:3000/api/charges/deleteTypeOfCharges",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer iYkLayfzSKim5lM4ZHjQnxLeflyTkOAfs60H3cVghFeESr4Bs1aICixjxLAg4DICv2HrkoKjUQN8pItZ1cLQQ5ePCutTn9t406qyMBAf2pHk5dl1BRdQoOoGm6AeJv4F",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "uploadImages",
+			"description": "",
+			"item": [
+				{
+					"name": "saveImages",
+					"request": {
+						"url": "http://localhost:3000/api/saveImage",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer JHMpIX550JuJQQ2YNuUhtgtPyH9Mm0gJnulqSUHf085IpSsP96Yaq4ntQMFA8wnT6JzTF9ef1tqf7O3ruOJxGloLRgKCZkvdEqseg8ZyAm3QXcRGlkuoboFSsEsA9j4S",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "imageData",
+									"value": "",
+									"description": "",
+									"type": "file"
+								}
+							]
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

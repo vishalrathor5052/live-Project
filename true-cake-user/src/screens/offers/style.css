@@ -1,0 +1,150 @@
+.offer-screen-main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.landing-category-btn {
+  width: 75%;
+}
+.circular-cat-main {
+  display: flex;
+  overflow-x: auto;
+}
+.offer-main {
+  width: 100%;
+  display: flex;
+  padding-top: 30px;
+}
+.menu-section {
+  width: 21%;
+}
+.Add-to-card-section {
+  width: 80%;
+}
+.card-category {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+p {
+  padding: 0px;
+  margin: 0px;
+}
+.offer-container {
+  padding: 50px 50px;
+}
+.offer-card-main {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  margin-top: 90px;
+  /* margin-right: 35px;
+  padding-right: 35px; */
+  flex-wrap: wrap;
+}
+.offer-card {
+  /* background-image: url(../../assets/images/offerscreen/offerCardImagenew.png); */
+  width: 31%;
+  border-radius: 10px;
+  height: 268px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+.offer-dreamy-title {
+  font-size: 25px;
+  color: var(--White);
+  opacity: 1;
+}
+.offer-persentage {
+  display: flex;
+  color: var(--Yellow);
+  font-size: 20px;
+  margin-top: 20px;
+}
+.offer-amount {
+  color: var(--Yellow);
+  margin-top: 20px;
+  font-weight: bold;
+}
+.offer-bottom-div {
+  border-bottom: 3px solid var(--Black);
+  width: 191px;
+  margin-left: 64px;
+  position: relative;
+  top: 39px;
+}
+.circular-cat-main::-webkit-scrollbar {
+  display: none;
+}
+.No-Offer {
+  color: var(--Yellow);
+  display: flex;
+  font-size: 30px;
+  font-weight: 600;
+  height: 40vh;
+  justify-content: center;
+  position: relative;
+  text-transform: uppercase;
+  width: 73%;
+  top: 23px;
+  /* left: 14%; */
+}
+@media screen and (max-width: 600px) {
+  .offer-screen-main {
+    margin-bottom: 64px;
+  }
+  .offer-container {
+    padding: 15px;
+  }
+  .offer-card-main {
+    flex-direction: column;
+    margin-top: 35px;
+    /* margin-left: 35px; */
+  }
+  .offer-card {
+    width: 100%;
+    /* margin-top: 20px; */
+  }
+  .offer-amount {
+    margin-top: 8px;
+  }
+  .offer-persentage {
+    margin-top: 8px;
+  }
+  .offer-bottom-div {
+    border-bottom: 3px solid var(--Black);
+    width: 70pt;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    /* margin-left: 35px; */
+  }
+  .heading-category {
+    font-size: 18pt;
+  }
+  .cake-logo {
+    width: 16px;
+    height: 11px;
+    right: -11px;
+    top: 8px;
+  }
+  .cat-heading-container {
+    /* margin-bottom: 86px!important; */
+    /* margin-top: 30px; */
+    /* margin: 0px 150px; */
+  }
+  .No-Offer {
+    color: var(--Yellow);
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    height: 40vh;
+    justify-content: center;
+    position: relative;
+    text-transform: uppercase;
+    width: 73%;
+    top: 23px;
+    left: 14%;
+  }
+}

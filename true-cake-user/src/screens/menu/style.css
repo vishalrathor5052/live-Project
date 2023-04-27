@@ -1,0 +1,118 @@
+.main-menu-screen {
+  display: none;
+  width: 100%;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+}
+.circle-category {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+}
+.heading {
+  margin-top: 50px;
+}
+.cardss {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  justify-content: center;
+  margin-top: 0px;
+}
+.menu-footer {
+  margin-top: 100px;
+}
+.menu-bottom-div {
+  border-bottom: 3px solid var(--Black);
+  width: 120px;
+  margin-left: 40px;
+}
+
+.menu-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85%;
+  margin: auto;
+  margin-top: 45px;
+}
+
+.menu-col {
+  width: 26%;
+}
+.menu-heading-mobile-sc {
+  display: none;
+}
+.menu-card {
+  margin-top: 95px;
+}
+.menu-pagination {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .main-menu-screen {
+    display: block;
+    padding: 0px;
+  }
+  .circle-category {
+    display: none;
+  }
+  .cardss {
+    padding: 0px 15px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .cake_card {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .card_image_div {
+    width: 100%;
+  }
+  .card_image {
+    width: 100%;
+    height: auto;
+  }
+  .Add-to-card-section {
+    flex-direction: column;
+    padding: 10px 10px;
+    width: 100% !important;
+  }
+  .category-left-div {
+    display: none !important;
+  }
+  .category-right-div {
+    width: 100% !important;
+    max-height: auto !important;
+  }
+  .card-landing-page {
+    width: 100% !important;
+  }
+  .menu-heading-mobile-sc {
+    display: block;
+    margin: 35px 10px;
+  }
+  .heading-category {
+    font-size: 18pt;
+  }
+  .cake-logo {
+    width: 15.59pt;
+    height: 10.36pt;
+    top: 9px;
+    right: -11px;
+  }
+  .menu-heading-bottom-div {
+    width: 70pt !important;
+    margin-left: 23px !important;
+  }
+  .landing-offer-mai {
+    display: block !important;
+    padding: 0px 15px 59px 15px !important;
+  }
+  /* .mobile-footer-container{
+    margin-bottom: 64px;
+  } */
+  .menu-pagination {
+    display: block;
+  }
+}

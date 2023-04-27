@@ -1,0 +1,366 @@
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.location-main-div {
+  width: 100%;
+  height: 100vh;
+}
+
+.location-background-img {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/images/locationimages/location-screen.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 176px 0px;
+}
+.circular-cat-main {
+  display: flex;
+  overflow-x: auto;
+}
+.circular-cat-main::-webkit-scrollbar {
+  display: none;
+}
+.your-location {
+  background-color: var(--White);
+  position: relative;
+  padding: 35px 0px 55px 0px;
+  width: 50%;
+  box-shadow: 0px 1px 6px #00000029;
+}
+
+.location-search-section {
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.logo-center {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-div {
+  width: 115px;
+  height: 115px;
+  background: var(--Black);
+}
+
+.truecake-logo {
+  width: 100%;
+  height: 100%;
+}
+
+.location-div {
+  margin-top: 26px;
+}
+
+.your-location-text {
+  font-size: 25px;
+  color: var(--Darkgrey);
+  text-align: center;
+  font-family: "Oswald", "Bold";
+  font-weight: bold;
+}
+
+.text-deliver {
+  font-size: 20px;
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+}
+
+.gps-main-div {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.use-current-location-address {
+  display: flex;
+  align-items: center;
+}
+
+.gps-img {
+  height: 17px;
+  width: 17px;
+  display: flex;
+}
+
+.search-placeholder {
+  border-radius: 5px;
+  opacity: 1;
+  padding: 8px 15px;
+  width: 100%;
+}
+
+.gps-text {
+  font-size: 18px;
+}
+
+.gps-search-img {
+  height: 18px;
+  width: 18px;
+}
+
+.gps-search-div {
+  position: relative;
+  top: 38px;
+  padding-left: 15px;
+}
+
+a.use-my-current-location {
+  padding-left: 8px;
+  font-size: 13px;
+  color: var(--Darkgrey);
+}
+
+.search-placeholder::placeholder {
+  color: var(--Black);
+}
+
+.location-link {
+  color: var(--Yellow);
+  font-size: 18px;
+  padding-left: 250px;
+}
+
+.selects-btn {
+  text-align: center;
+  margin: auto;
+  width: 147px;
+  margin-top: 55px;
+}
+
+.search-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.input-location {
+  border: 1px solid #f8d40c;
+  border-radius: 5px;
+}
+
+.input-group-text {
+  background-color: none;
+}
+
+.search-box {
+  background-color: var(--White);
+  border: none;
+}
+
+a.change-location {
+  color: var(--Yellow);
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.search-cake-container {
+  padding: 59px 50px;
+}
+
+.popular-cake-bottom-div {
+  border-bottom: 3px solid var(--Black);
+  width: 191px;
+  margin-left: 11%;
+}
+
+/* new styles for search cake */
+.search-heading {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 50px; */
+  /* margin-bottom: 40px; */
+}
+
+.heading-text {
+  font-family: "Oswald", "Regular";
+  font-weight: 400;
+  color: var(--Black);
+}
+
+.search-input-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  /* margin-bottom: 50px; */
+}
+
+.input-cake {
+  width: 40%;
+  border: 1px solid var(--Yellow);
+  border-radius: 5px;
+}
+
+.search-btn {
+  width: 136px;
+  height: 51px;
+  background-color: var(--Yellow);
+  border-radius: 8px;
+  margin-left: 30px;
+  margin-top: 3px;
+  box-shadow: 3px 3px;
+  border: none;
+  font-size: 20px;
+  font-family: "Oswald", "Regular";
+}
+
+.add-to-cart-section {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+.card-main-search {
+  margin-left: 25px;
+  width: 30%;
+}
+
+/* Add to cart section css */
+.Add-to-card-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-landing-page {
+  width: 30%;
+}
+
+.form-control:focus {
+  border-color: none;
+  box-shadow: none;
+}
+.heading-category {
+  position: relative;
+  width: fit-content;
+}
+.searchcake-bottom-div {
+  /* border-bottom: 3px solid var(--Black);
+  width: 191px;
+  margin-left: 145px;
+  margin-top:10px;
+  position: relative;
+  top: 39px; */
+
+  /* border-bottom: 3px solid var(--Black);
+  width: 130px;
+  position: absolute;
+  left: 170px;
+  top: 50px; */
+
+  border-bottom: 3px solid var(--Black);
+  width: 130px;
+  position: absolute;
+  top: 50px;
+  left: 70%;
+}
+
+.search-cake-logo {
+  width: 65px;
+  height: 43px;
+  position: absolute;
+  z-index: -1;
+  left: 65%;
+  /* right: -47px; */
+}
+.No-Record {
+  color: var(--Yellow);
+  display: flex;
+  font-size: 30px;
+  font-weight: 600;
+  height: 40vh;
+  justify-content: center;
+  position: relative;
+  text-transform: capitalize;
+  text-align: center;
+  width: 73%;
+  top: 23px;
+  left: 14%;
+}
+
+@media screen and (max-width: 600px) {
+  .location-background-img {
+    padding: 0px 15px;
+  }
+  .card-landing-page {
+    width: 100%;
+    margin-right: 0%;
+  }
+  .your-location {
+    width: 100%;
+  }
+  .search-cake-logo {
+    height: 17px;
+    width: 25pt;
+  }
+  .searchcake-bottom-div {
+    /* border-bottom: 3px solid var(--Black);
+    width: 130px; */
+    /* margin-left: 100px;
+    position: relative; */
+    /* position: absolute;
+    left: 70px; */
+    top: 35px;
+  }
+  .search-heading-main {
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+  }
+  .heading-category {
+    margin-left: 51px;
+  }
+  .search-btn {
+    width: 110px;
+    height: 40px;
+    margin-top: 7px;
+    /* margin-left: 20px; */
+  }
+  .input-cake {
+    width: 60%;
+  }
+  .search-cake-container {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .search-image {
+    display: block;
+  }
+  .search-input-button {
+    margin-top: 17px;
+  }
+  .add-to-cart-section {
+    margin-top: 67px;
+    margin-bottom: 0px;
+  }
+  .search-pagination {
+    margin-bottom: 70px;
+  }
+  .No-Record {
+    color: var(--Yellow);
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    height: 40vh;
+    justify-content: center;
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+    width: 73%;
+    top: 23px;
+    left: 14%;
+  }
+}

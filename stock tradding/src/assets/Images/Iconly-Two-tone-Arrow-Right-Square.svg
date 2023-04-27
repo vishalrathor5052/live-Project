@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Iconly_Two-tone_Arrow---Right-Square" data-name="Iconly/Two-tone/Arrow---Right-Square" transform="translate(-2 -2)">
+    <g id="Arrow---Right-Square" transform="translate(2 22) rotate(-90)">
+      <path id="Stroke-1" d="M5.666,19.25h8.669c3.02,0,4.915-2.139,4.915-5.166V5.916C19.25,2.889,17.365.75,14.335.75H5.666C2.636.75.75,2.889.75,5.916v8.168C.75,17.111,2.636,19.25,5.666,19.25Z" fill="none" stroke="#7522de" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd" opacity="0.4"/>
+      <line id="Stroke-3" y1="8.172" transform="translate(10 5.914)" fill="none" stroke="#7522de" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Stroke-5" d="M13.748,10.322,10,14.086,6.252,10.322" fill="none" stroke="#7522de" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
